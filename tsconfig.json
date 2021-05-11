@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "traceResolution": true,
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["es2015", "es2016", "es2017", "es2018", "es6", "es7", "es5", "dom"],
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "typeRoots": ["node_modules/@types"],
+    "keyofStringsOnly": true,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true,
+    "declaration": false,
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "removeComments": false,
+    "strictNullChecks": false,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,54 @@
+.arrow-container
+  background-size contain
+  left 49%
+  margin-top: 10px;
+
+.sync-resource
+  overflow-y auto
+  background rgba(255,0,0,.1)
+
+  &__header
+    margin-top 10px
+    display flex
+    justify-content space-between
+    padding 10px
+    &_item
+      border-bottom 1px solid #d4d4d4
+      background #fafafa
+      padding 10px 30px 10px 30px
+
+  &__tables
+    margin 0px auto
+    position relative
+    max-height 600px
+    overflow-y auto
+    max-height 60vh
+    display flex
+    justify-content space-between
+
+  &__arrow
+    width 30px
+    height 30px
+  
+    &_next
+      background-image url('../components/SyncTable/images/next.svg')
+      margin-top 10px
+      &_active
+        background-image url('../components/SyncTable/images/next-hover.svg')
+        cursor pointer
+
+    &_prev
+      background-image url('../components/SyncTable/images/back.svg')
+      &_active
+        background-image url('../components/SyncTable/images/back-hover.svg')
+        cursor pointer
+
+  &__footer
+    display flex
+    justify-content space-around
+    margin-top 20px
+
+  &__general-error
+    color red
+    display flex
+    justify-content center

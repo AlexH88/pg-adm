@@ -1,0 +1,70 @@
+@import "~shared/view/styles/colors.styl";
+
+.menu-item
+  &__wrapper
+    position relative
+
+  &__wrapper a
+    color $grey900
+    font-size 16px
+    svg
+      fill $grey900
+      transition fill 0.5s
+  
+  &__subgroup a
+    color $grey600
+    font-size 14px
+    svg
+      fill $grey600
+      transition fill 0.5s
+
+  &__link a
+    line-height 40px
+    height 40px
+    box-sizing border-box
+    font-weight 600
+    text-decoration none
+    white-space nowrap
+    transition color 0.5s
+    display flex
+    align-items center
+  
+  &__wrapper a:hover, &__subgroup a:hover, &__link a:hover
+    color $blue500
+    text-decoration none
+    svg
+      fill $blue500
+
+  &__subgroup
+    margin-left 24px
+    transition max-height 0.5s ease-out
+    max-height 0
+    overflow hidden
+
+  &__subgroup_expand
+    transition max-height 0.5s ease-in
+    max-height 300px
+
+  &__link
+    padding 0
+
+  &__arrow
+    width 24px
+    padding 1px 6px 0 6px
+    box-sizing border-box
+    transition 500ms ease all
+
+  &__arrow_expand
+    transform rotate(90deg)
+
+    .turnedOff
+      &_hover
+        cursor default
+      & a
+        display flex
+        align-items center
+        color $grey400
+        cursor default
+        &:hover
+          color $grey400
+          background transparent

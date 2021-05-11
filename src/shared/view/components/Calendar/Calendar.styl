@@ -1,0 +1,32 @@
+@import "~shared/view/styles/colors.styl"
+
+.calendar
+
+  &__overlay
+    z-index 9
+    position fixed
+    width 100%
+    height 100%
+    top 0
+    bottom 0
+    left 0
+    right 0
+  & input
+    width 225px
+
+  &__button-rem
+    height 100%
+    position absolute
+    margin auto
+    top 42%
+    right 0
+    button
+      width 26px
+  
+  .DayPicker
+    z-index 10
+    position absolute
+    background-color white
+    box-shadow $grey300 0px 1px 6px,
+              $grey300 0px 1px 4px
+    flex-wrap nowrap

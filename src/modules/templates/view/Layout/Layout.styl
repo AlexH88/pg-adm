@@ -1,0 +1,70 @@
+.layout
+  display block
+  margin auto
+  padding 0 25px
+  &__content
+    display flex
+  &__sidebar
+    width 300px
+    transition all .3s
+  &__description
+    width 100%
+  
+.alerts-wrapper
+  display flex
+  justify-content center
+  position fixed
+  bottom 10vh
+  left 0
+  width 100%
+  
+  &__message
+    cursor pointer
+    min-height 50px
+    min-width 100px
+    max-height 150px
+    max-width 300px
+    background #3f454a
+    box-shadow 0 0 50px 1px gray
+    border-radius 2px
+    display flex
+    justify-content center
+    align-items center
+    padding 10px 25px
+    opacity 1
+    animation fade-down 3.5s 1 linear
+    &-content
+      color ghostwhite
+    &-icon
+      display flex
+      justify-content center
+      align-items center
+      & div
+        margin-right 10px
+        padding 0 12px
+        border 1px solid transparent
+        border-radius 100px
+        font-size 1.4rem
+        margin 0 5px
+
+@keyframes fade-down {
+  0% {
+    opacity 1
+  }
+
+  66% {
+    opacity 1
+  }
+
+  100% {
+    opacity 0
+  }
+}
+
+// @media screen and (max-width: 1210px) {
+//   .layout__sidebar {
+//     width 0px
+//     max-width 0px
+//     min-width 0px
+//   }
+// }

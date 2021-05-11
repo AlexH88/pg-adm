@@ -1,0 +1,122 @@
+.list_a4
+  position relative
+  background ghostwhite
+  border 1px solid #ddd
+  color #bbb
+  border-top 1px solid #2ea5ff
+  border-left 1px solid #2ea5ff
+  &__span
+    position absolute
+    margin-top 10px
+    margin-left 10px
+
+  &__slider > div > div
+    height 2.5rem
+
+  &__format
+    text-align center
+    font-size 1.2rem
+    padding 5px 10px
+
+  &__table
+    display table
+    min-height: 661px
+    margin: auto
+  
+  &__first-column
+    display table-cell
+    vertical-align middle
+    padding 10px
+
+  &__column
+    display table-cell
+    vertical-align top
+    padding 10px
+    &_text
+      text-align center
+      width 100%
+
+  &__groups
+    display table
+    padding 10px 0px
+    &-column
+      display table-cell
+      padding 0px 5px
+
+  &__draggable
+    position absolute
+    cursor pointer
+    &-img
+      color black
+      display inline-block
+      pointer-events none
+    &-text
+      color black
+      display inline-block
+      text-align left
+      overflow hidden
+      maxWidth 150px
+      minWidth 150px
+    &:hover .list_a4__resize
+      display inline-block
+
+  &__footer
+    margin 0 20%
+    display flex
+    justify-content space-between
+    align-items center
+    margin-bottom 10px
+
+  &__resize
+    display none
+    width 8px
+    height 8px
+    position absolute
+    bottom -4px
+    right -4px
+    cursor nwse-resize
+
+  &__rotation
+    width 10px
+    height 10px
+    position absolute
+    bottom -5px
+    right -5px
+    border-radius: 10px
+    cursor nwse-resize
+
+.selected-labels
+  min-height 100px
+  padding 0
+  &__label-
+    padding 2px 5px
+  &__name
+    cursor pointer
+    color #2ea5ff
+    text-overflow elipsis
+  &__close-span
+    cursor pointer
+    float right
+    margin-left 15px
+    &:hover
+      color #aaa
+
+
+
+.file-input
+  padding 10px
+  color #2ea5ff
+  & div
+    cursor pointer
+    &:hover
+      color #4fc7ff
+
+.add-label-dialog
+  padding 10px
+  &__btn-box
+    display flex
+    justify-content center
+
+//TODO:
+// div[data-react-toolbox/lib/="dropdown"]
+//   outline none

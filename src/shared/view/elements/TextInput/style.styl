@@ -1,0 +1,45 @@
+@import "~shared/view/styles/colors.styl";
+
+.text-input
+    padding 14px 0
+    margin-bottom 4px
+    position relative
+.text-input .input
+    border 1px solid #a6a6a6
+    height 30px
+    border-radius 3px
+    padding 0
+    box-sizing content-box
+.text-input .inputElement
+    display flex
+    align-items center
+    font-size 16px
+    color rgb(33, 33, 33)
+    padding 0 0 0 8px
+    height 30px
+    margin 0
+.text-input .label
+    font-size 16px
+    line-height 16px
+    transition-property top, left, font-size, color
+.text-input .inputElement ~ .label:not(.fixed),
+.text-input .inputElement.filled ~ .label:not(.fixed)
+    left 8px
+    top 8px
+    color rgb(33, 33, 33)
+.text-input .inputElement:focus:not([disabled]):not([readonly]) ~ .label:not(.fixed),
+.text-input .inputElement.filled ~ .label:not(.fixed)
+    left 0
+    top -14px
+    font-size 12px
+    line-height 12px
+    color $blue400
+.text-input .bar:before, .bar:after
+    background-color $blue400
+.text-input .error
+    color #de3226
+    position absolute
+    bottom -14px
+    font-size 12px
+    line-height 12px
+    margin 0

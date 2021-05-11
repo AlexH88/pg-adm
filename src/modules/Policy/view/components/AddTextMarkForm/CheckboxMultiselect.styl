@@ -1,0 +1,22 @@
+@import "~shared/view/styles/colors.styl";
+
+.popover
+  display none
+  font-size 0.8rem
+  position absolute
+  z-index 10
+  &_activated
+    display flex
+  &:before
+    content ''
+    width 10px
+    height 10px
+    background-color white
+    border-top 1px solid rgba(0, 0, 0, .04)
+    border-left 1px solid rgba(0, 0, 0, .04)
+    -ms-transform rotate(45deg)
+    -webkit-transform rotate(45deg)
+    transform rotate(45deg)
+    position absolute
+    top -5px
+    left calc(30% - 5px)

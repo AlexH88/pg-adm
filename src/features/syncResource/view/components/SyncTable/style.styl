@@ -1,0 +1,40 @@
+@import '~shared/view/styles/colors';
+
+.sync-table
+  //display table
+  display block
+  border-collapse collapse
+  border-spacing 0
+  //box-shadow #e0e0e0 0px 1px 6px, #e0e0e0 0px 1px 4px
+  width 250px
+  
+  &__select-all
+    display flex
+    justify-content center
+
+  &__row
+    display flex
+    justify-content space-between
+    padding-right 10px
+
+  &__row-wrapper
+    display flex
+    flex-direction column
+    justify-content space-between
+    padding-right 10px
+
+  &__cell
+    padding 10px
+    max-width 159px
+    word-wrap break-word
+
+  &__header
+    background-color $grey50
+    border-bottom 1px solid $grey300
+
+  &__wrapper
+    //display inline-block
+    margin-right 90px
+    vertical-align top
+    &:last-child
+      margin-right 0

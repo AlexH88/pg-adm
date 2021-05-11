@@ -1,0 +1,21 @@
+@import "~shared/view/styles/colors.styl";
+
+.edit-roles
+  &__actions  
+    .raised
+      min-width 25px
+      height 25px
+    .primary:not([disabled]).raised
+      background $green220
+      padding 13px 13px 13px 30px
+      font-size 12px
+      font-weight bold
+      line-height 3px
+      &:after
+        content '+'
+        font-size 25px
+        background-size contain
+        height 15px
+        width 15px
+        position absolute
+        left 5px

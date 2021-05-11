@@ -1,0 +1,67 @@
+@import "~shared/view/styles/colors.styl";
+
+.iconButton
+  display inline-block
+  width 32px
+  height 32px
+
+  .raised,
+  .flat,
+  .floating,
+  .toggle
+    font-family 'SegoeUI', sans-serif
+
+  .button:not(.primary)
+    text-align center
+    width 30px
+    min-width 30px
+    height 30px
+    padding 0
+    box-sizing content-box
+    border 1px solid #a6a6a6
+    box-shadow none
+    border-radius 3px
+    display: flex
+    align-items center
+    transition 0.2s color border
+
+  .button:not(.primary):hover
+    border 1px solid $blue400
+
+  .button:not(.primary) svg
+    width 20px
+    height 20px
+    margin 0
+    color #a6a6a6
+    transition 0.2s color
+
+  .button:not(.primary):hover svg
+    color $blue400
+
+  .button.primary
+    font-size 16px
+    line-height 16px
+    text-align center
+    width 32px
+    min-width 32px
+    height 32px
+    padding 0
+    box-sizing content-box
+    box-shadow none
+    border 0
+    border-radius 3px
+    display: flex
+    align-items center
+    transition 0.2s opacity
+    opacity 0.7
+    background $blue500
+
+  .button.primary:hover
+    opacity 1
+
+  .button.primary svg
+    width 16px
+    height 16px
+    font-size 100%
+    margin 0
+    color #fff

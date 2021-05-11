@@ -1,0 +1,31 @@
+@import "~shared/view/styles/colors.styl";
+
+.input
+    padding .8rem 0
+.inputElement
+    font-size 1rem
+.label
+    font-size 1rem
+    top 2rem
+.inputElement ~ .label:not(.fixed)
+    font-size 1rem
+    top 1.8rem
+.inputElement.filled ~ .label:not(.fixed)
+    font-size 1rem
+    top 1.8rem
+.inputElement:focus:not([disabled]):not([readonly]) ~ .label:not(.fixed),
+.inputElement.filled ~ .label:not(.fixed)
+    font-size 1rem
+    top 0.2rem
+    color $blue400
+.bar:before, .bar:after
+    background-color $blue400
+.error
+    color #de3226
+    position absolute
+    bottom -5px
+    font-size 1rem
+    line-height 1rem
+    margin 0
+.errored > .inputElement
+    margin-top 0

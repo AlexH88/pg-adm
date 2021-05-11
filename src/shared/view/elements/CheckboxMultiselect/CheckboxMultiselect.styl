@@ -1,0 +1,80 @@
+@import "~shared/view/styles/colors.styl";
+
+.checkbox-multiselect-wrapper
+  position relative
+  display inline-block
+  &__popover
+    display none
+    position absolute
+    top 30px
+    left 50%
+    transform translateX(-50%)
+    z-index 10
+    &_activated
+      display flex
+    &:before
+      content ''
+      width 10px
+      height 10px
+      background-color white
+      border-top 1px solid rgba(0, 0, 0, .04)
+      border-left 1px solid rgba(0, 0, 0, .04)
+      -ms-transform rotate(45deg)
+      -webkit-transform rotate(45deg)
+      transform rotate(45deg)
+      position absolute
+      top -5px
+      left calc(50% - 5px)
+  &__button
+    display flex
+    cursor pointer
+    color $grey500
+    white-space nowrap
+    &-dark
+      color $blue500
+      display flex
+      cursor pointer
+      white-space nowrap
+  &__button:hover
+    color $blue500
+
+  &__expander
+    margin-left 5px
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid $grey500;
+    border-bottom none
+    align-self center
+  &__checkbox
+    padding 2px 0
+    &:hover
+      background $grey100
+      cursor pointer
+  &__overlay
+    z-index 9
+    position fixed
+    width 100%
+    height 100%
+    top 0
+    bottom 0
+    left 0
+    right 0
+
+  &__icon-gear
+    background url(./images/gear.svg)
+    background-size contain
+    background-repeat no-repeat
+    width 20px
+    height 20px
+    cursor pointer
+    &:hover
+      background url(./images/gear_hover.svg)
+      background-size contain
+
+  &__icon-gear-dark
+    background url(./images/gear_hover.svg)
+    background-size contain
+    background-repeat no-repeat
+    width 20px
+    height 20px
+    cursor pointer

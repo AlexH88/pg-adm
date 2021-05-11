@@ -1,0 +1,92 @@
+import {IRuleGroup} from 'shared/types/policy';
+
+interface IAgregate {
+  value: string;
+  title: string;
+}
+
+interface IPolicy {
+  description: string;
+  owner: string;
+  name: string;
+  state: boolean;
+  id: number;
+}
+
+interface ILicense {
+  usersCount?: number;
+  printersCount?: number;
+  connectionsCount?: number;
+  macAddress?: string;
+  blockedAccessRules?: string[];
+  stopDate: Date|string;
+  licenseKey: string;
+}
+
+interface IFailedResponse {
+  error: string;
+}
+
+interface IGetGroupsSuccessPayload {
+  userGroups: IRuleGroup;
+  printerGroups: IRuleGroup;
+}
+
+interface ISetHoursDaysCodePayload {
+  daysCode: string;
+  hoursCode: string;
+}
+
+interface ISetDaysCodePayload {
+  daysCode: string;
+}
+
+interface ISetHoursCodePayload {
+  hoursCode: string;
+}
+
+interface IResponse {
+  response: {};
+}
+
+interface IChoosenEditPolicy {
+  id: number;
+  name: string;
+}
+
+interface IReduxState {
+  showEditModal: boolean;
+  showRemoveModal: boolean;
+}
+
+interface IActionsConfig {
+  ignore: string;
+  block: string;
+  permit: string;
+  forceDuplex: string;
+  forceGrayscale: string;
+  addWatermark: string;
+  addSign: string;
+  [ key: string ]: string;
+}
+
+type TypesFieldPolicy = 'usergroups' | 'printergroups' | 'hours' | 'days' | 'action' | 'alert' | 'counter';
+
+export {
+  IAgregate,
+  IPolicy,
+  IReduxState,
+  IFailedResponse,
+  IResponse,
+  IActionsConfig,
+  TypesFieldPolicy,
+  IGetGroupsSuccessPayload,
+  ISetHoursDaysCodePayload,
+  ISetDaysCodePayload,
+  ISetHoursCodePayload,
+  IChoosenEditPolicy,
+  ILicense
+}
+
+export * from './actionTypes';
+export * from './apiCommunication';

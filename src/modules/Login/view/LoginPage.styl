@@ -1,0 +1,54 @@
+.reg-wrap
+  background: url('./images/bg_register.jpg') no-repeat;
+  position fixed
+  top 0
+  right 0
+  left 0
+  bottom 0
+  background-size cover
+  display flex
+  align-items center
+
+.auth-box
+  max-width 300px
+  width 100%
+  margin 0 auto
+
+.auth-box-in
+  background #ffffff
+  padding 30px
+  border 0px solid #2ea5ff
+  box-shadow 0 0 50px 4px rgba(0,0,0,.3)
+
+  &__logo
+    margin-bottom 32px
+    display flex
+    align-items center
+    justify-content flex-start
+
+    &-img
+      width 40px
+      padding-right 20px
+
+    &-title
+      display inline-block
+      font-size 24px
+      color #000000
+
+  &__fields
+    width 100%
+    margin-bottom 24px
+
+  &__button
+    display flex
+    justify-content center
+    .regularButton
+      display flex
+      flex-direction column
+      width 100%
+
+.error-message
+  margin-top 2px
+  position absolute
+  color red
+  outline none

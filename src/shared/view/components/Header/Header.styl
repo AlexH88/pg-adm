@@ -1,0 +1,91 @@
+@import "~shared/view/styles/colors.styl";
+
+.header
+  border-bottom 1px solid $grey300
+  justify-content space-between
+  padding 13px 0
+  position relative
+
+  &__title
+    img
+      cursor pointer
+
+  &,
+  &__title,
+  &__user,
+  &__user-link,
+  &__avatar-wrapper
+    display flex
+    align-items center
+
+  &__info-license
+    position relative
+    top -0.8em
+    font-size 0.8em
+    color salmon
+
+  &__info_icon
+    position absolute
+    //background url('shared/view/styles/images/icons8-info.svg') no-repeat
+    width 26px
+    height 26px
+    & + .info_popup
+      visibility hidden
+    &:hover + .info_popup
+      visibility visible
+      color salmon
+      padding-left 25px
+
+
+  &__name
+    font-size 1.5rem
+    padding-left 5px
+    cursor default 
+
+  &__about
+    display inline-block
+    padding 5px 15px 0px 35px
+    color #2ea5ff
+    &:hover
+      color black
+      cursor pointer
+
+  &__username
+    margin 0 15px
+    font-size 15px
+    cursor pointer
+  &__logout
+    color $grey500
+    font-size 1rem
+    cursor pointer
+    &:after
+      content ''
+      display inline-block
+      //background-image url('shared/view/styles/images/logout.svg')
+      background-size contain
+      width 15px
+      height 15px
+      cursor pointer
+      vertical-align text-bottom
+      margin-left 5px
+  &__logo
+    width 25px
+    // cursor pointer
+  &__avatar
+    width 25px
+
+  &__menu
+    position absolute
+    display flex
+    flex-direction column
+    align-items flex-start
+    padding 10px
+    width 130px
+    justify-content space-around
+    height 60px
+    bottom -82px
+    right 0
+    border 1px solid #e5eaee
+    div
+      &:hover 
+        color #000

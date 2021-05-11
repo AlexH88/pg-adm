@@ -1,0 +1,30 @@
+.progressbar
+  border 2px solid #c5c5c5
+  border-radius 2px
+  height 10%
+  width 100%
+  &__container
+    //margin 50px
+    //padding 20px
+    height 50px
+    display flex
+    justify-content center
+    align-items middle
+
+  &__contain
+    background #2ea5ff
+    height 100%
+    width 0
+    background-size 50px
+    animation pulse .6s infinite alternate
+    transition-property all
+    transition-timing-function linear
+
+@keyframes pulse {
+  from {
+    background: #0a61cc;
+  }
+  to {
+    background: #2ea5ff;
+  }
+}

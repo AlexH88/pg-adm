@@ -1,0 +1,26 @@
+.tabs
+  height 660px
+  overflow auto
+  margin-bottom -100px
+  .tabs_header
+    position fixed
+    z-index 9999
+    display block
+    background white
+    width 900px
+  .tab
+    margin-top: 10px
+    color: rgba(0,0,0,0.6)
+    display: inline-block
+    padding: 10px
+    border-bottom: 2px solid rgba(0,0,0,0.2)
+    border-radius: 10px 10px 0 0
+    cursor: pointer
+    &:hover, &.active
+      background: none
+      border-bottom: 2px solid rgba(0,0,0,0.5)
+  .content
+    margin-top 45px
+    padding: 20px
+    color: rgba(0,0,0,0.6)
+    background: rgba(255,255,255,0.2)

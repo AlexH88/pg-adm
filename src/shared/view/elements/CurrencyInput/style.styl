@@ -1,0 +1,66 @@
+@import "~shared/view/styles/colors.styl";
+
+.currency-wrapper
+  position relative
+  padding 14px 0
+  margin-bottom 4px
+
+.currency-wrapper_disabled input
+  pointer-events none
+  cursor not-allowed
+  border-bottom 3px dashed black !important
+
+.currency-wrapper input
+  display flex
+  align-items center
+  font-size 16px
+  line-height 16px
+  color rgb(33, 33, 33)
+  padding 0 0 0 8px
+  height 30px
+  width calc(100% + 2px)
+  box-sizing border-box
+  border 0
+  outline none
+
+.currency-wrapper__frame
+  position relative
+  height 32px
+  box-sizing border-box
+  border 1px solid #a6a6a6
+  border-radius 3px
+  overflow hidden
+
+.currency-wrapper__label
+  position absolute
+  left 0
+  top 0
+  font-size 13px
+  line-height 13px
+  color $blue400
+
+.currency-wrapper__bar
+  position relative
+  height 0
+  width 100%
+
+.currency-wrapper__bar:before,
+.currency-wrapper__bar:after
+  position absolute
+  content: '""'
+  transition-duration 0.2s
+  transition-property width
+  background-color $blue400
+  height 2px
+  width 0
+  bottom 0
+
+.currency-wrapper__bar:before
+  left 50%
+
+.currency-wrapper__bar:after
+  right 50%
+
+.currency-wrapper input:focus ~ .currency-wrapper__bar:before,
+.currency-wrapper input:focus ~ .currency-wrapper__bar:after
+  width 100%

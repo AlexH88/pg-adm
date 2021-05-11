@@ -1,0 +1,19 @@
+@import "~shared/view/styles/colors.styl";
+
+.add-regular
+  &__email-wrapper
+    .raised
+      min-width 25px
+      height 25px
+    .neutral:not([disabled]).raised
+      background $red100
+      padding 0
+      &:after
+        content ''
+        background-image url(./../images/minus.svg)
+        background-size contain
+        height 15px
+        width 15px
+        position absolute
+        left 5px
+        top 5px

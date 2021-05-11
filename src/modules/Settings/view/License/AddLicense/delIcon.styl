@@ -1,0 +1,9 @@
+@import "~shared/view/styles/colors.styl";
+
+.edit-roles
+  &__del 
+    .primary:not([disabled]).raised
+      background $red
+      &:after
+        content '-'
+        top 10px

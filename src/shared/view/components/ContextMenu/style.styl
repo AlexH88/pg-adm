@@ -1,0 +1,111 @@
+.top-wrapper {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  z-index: 199;
+  position: absolute;
+}
+
+.top-arrow {
+  box-shadow: 1px 1px 4px 0px rgba(53, 127, 209, 0.26);
+  background-color: #fff;
+  border: 1px solid rgb(219, 232, 239);
+}
+
+.menu-box {
+  background-color: white;
+  position: absolute;
+  border: 1px solid rgb(219, 232, 239);
+  box-shadow: 0px 4px 13px 0px rgba(53, 127, 209, 0.26);
+  border-radius: 6px;
+  padding: 1em 0;
+  display: flex;
+  justify-content: center;
+  min-width: 170px;
+  cursor: pointer;
+  filter: drop-shadow(0 1px 3px rgba(77, 77, 77, 0.75));
+  z-index: 1000;
+}
+
+.menu-box:after {
+  bottom: 100%;
+  right: 15px;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color: #fff;
+  border-width: 10px;
+}
+
+.menu-box-left:after {
+  bottom: 100%;
+  left: 8px;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-bottom-color: #fff;
+  border-width: 10px;
+}
+
+.menu-box-right:after {
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-left-color: #fff;
+  border-width: 10px;
+}
+
+.menu-box-bottom:after {
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -20px;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-top-color: #fff;
+  border-width: 10px;
+}
+
+.menu-box ul {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-box ul li {
+  color: #2e75cc;
+  font-size: inherit;
+  display: flex;
+  align-items: center;
+}
+.menu-box ul li > * {
+  width: 100%;
+  padding: 0.33em 10%;
+  font-size: inherit;
+}
+
+.menu-box ul li:last-child {
+  margin-bottom: 0px;
+}
+
+.menu-box ul li:hover,
+.menu-box ul li:active,
+.menu-box ul li.hover {
+  background-color: #ddebfa;
+}

@@ -1,0 +1,26 @@
+@import "~shared/view/styles/colors.styl";
+
+.snmp-pagination
+  text-align right
+  padding 0 6px 0 12px
+  height 40px
+  display flex
+  align-items center
+  justify-content flex-start
+  background $blue450
+  border solid 1px #d8d8d8
+  &__page
+    cursor pointer
+    display inline-block
+    padding 5px
+    color $grey500
+    &_current
+      color #000 !important
+      font-weight 600 !important
+    &_error
+      color tomato
+      font-weight 600
+    &:hover
+      color $blue500
+  &__separator
+    display inline-block

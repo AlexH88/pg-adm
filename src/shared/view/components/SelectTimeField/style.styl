@@ -1,0 +1,67 @@
+@import '~shared/view/styles/colors.styl';
+
+.select-time
+  position relative
+
+  &__input-wrapper
+    cursor pointer
+    &:after
+      content: ''
+      position absolute
+      //background url('shared/view/styles/images/spr.png') no-repeat
+      width 40px
+      height 27px
+      
+      background-size cover
+      right -7px
+      top 25px
+    
+    &_datepicker:after
+      background-position-y -361px
+    
+    &_hours:after
+      background-position-y -495px
+
+  &__items-list
+    display flex
+    flex-wrap wrap
+    padding 10px
+    box-shadow $grey300 0px 1px 6px, $grey300 0px 1px 4px
+    position absolute
+    opacity 0
+    visibility hidden
+    transition all linear 0.2s
+    z-index 10
+    background-color #fff
+
+    &_show
+      opacity 1
+      visibility visible
+
+    &_hours
+      width 76%
+
+  &__item
+    display inline-block
+    width 40px
+    height 40px
+    display flex
+    justify-content center
+    align-items center
+    cursor pointer
+
+    &:hover
+      background-color $blue100
+
+    &_active
+      background-color $blue150
+
+  &__overlay
+    z-index 9
+    position fixed
+    width 100%
+    height 100%
+    top 0
+    bottom 0
+    left 0
+    right 0

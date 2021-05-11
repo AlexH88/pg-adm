@@ -1,0 +1,205 @@
+@import "~shared/view/styles/colors.styl"
+
+div.gen
+  background rgba(255, 215, 7, 0.2);
+
+.data-table__row_green
+  width 100%
+  display flex
+  flex-flow row nowrap
+  position relative
+  background-color #d9f6cf
+  &:hover
+    background-color #c3f6bb
+
+.data-table__row_red
+  background-color #ffdadd
+  width 100%
+  display flex
+  flex-flow row nowrap
+  position relative
+  &:hover
+    background-color #ffc7c5
+
+.data-table
+  // box-shadow $grey300 0px 4px 6px, $grey300 0px 3px 4px
+  position relative
+  // border 2px solid $blue450
+  border 1px solid #d8d8d8
+  width 100%
+  &__wrapper
+    display block
+  &__table
+    display flex
+    flex-flow column nowrap
+    justify-content space-between
+    font-size 1rem
+    // background #fafafa
+    background $blue450
+    position relative
+    //width 100%
+    //overflow-x auto
+    //overflow-y scroll
+
+  &__notification
+    position absolute
+    top -50px
+    right 28px
+    padding 0 15px
+    border-radius 8px
+    box-shadow 0 1px 4px #696969;
+    height 40px
+    box-sizing border-box
+    display flex
+    align-items center
+    justify-content center
+    color $blue400
+    font-size 16px
+    font-weight 600
+    cursor pointer
+
+    &:before
+      content ""
+      position absolute
+      bottom -10px
+      left 50%
+      transform translateX(-50%) 
+      width 0
+      height 0
+      border-left 10px solid transparent
+      border-right 10px solid transparent
+      border-top 10px solid #A9A9A9
+    
+    &:after
+      content ""
+      position absolute
+      bottom -8px
+      left 50%
+      transform translateX(-50%) 
+      width 0
+      height 0
+      border-left 10px solid transparent
+      border-right 10px solid transparent
+      border-top 10px solid #fff
+
+    &:hover span
+      text-decoration underline
+
+  &__header
+    background-color $grey50
+    background #eceff2
+    font-size 1rem
+    overflow hidden
+    & ^[0]__row
+      margin-right 50px
+      &-item
+        padding 12px 18px 12px 18px
+        background $blue450
+        font-size .9rem
+        color #555
+
+  &__row
+    display flex
+    flex-flow row nowrap
+    position relative
+    &:nth-of-type(odd)
+      // background-color $grey50
+      // background #e3f2fd;
+      background #f3f7fb;
+    &:nth-of-type(even)
+      // background-color $grey50
+      // background #e3f2fd;
+      background white;
+      
+    &.gen:nth-of-type(odd)
+      background rgba(255, 215, 7, 0.2);
+
+    &-item
+      //border 1px solid red
+      min-width 100px
+      display flex
+      align-items center
+      flex-flow row nowrap
+      flex-grow 1
+      flex-basis 0
+      padding 6px 18px 6px 18px
+      word-break break-word
+      white-space pre-line
+      &:last-of-type
+        min-width 95px
+        padding-right 8px
+      &_align
+        &_right
+          justify-content flex-end
+        &_left
+          justify-content flex-start
+      &_gear:last-of-type
+        min-width 20px
+        padding 0
+        align-self center
+        justify-content flex-end
+        position absolute
+        right 0
+      &_short
+        flex-grow 0
+        min-width 30px
+
+  &__body
+    height 60vh
+    font-size 0.9rem
+    background #fff
+    border-top 1px solid #d8d8d8
+    overflow-y hidden
+    overflow-x hidden
+    // border-top 1px solid #e7e7e7
+    &:hover
+      overflow-y auto
+      overflow-x auto
+      &::-webkit-scrollbar
+        width 8px
+        height 8px
+      &::-webkit-scrollbar-corner
+        background #e3f2fd
+      &::-webkit-scrollbar-track
+        background #e3f2fd
+      &::-webkit-scrollbar-thumb
+        background #b7dbf5
+
+    .data-table__row:hover
+      background #f0f0f0
+      // background $blue50
+
+    .data-table__row.gen:hover
+      background rgba(255, 235, 27, 0.4);
+
+    .data-table__row.policy-active
+      background rgba(100, 193, 78, 0.33);
+
+    &_loading
+      overflow auto
+      display flex
+      align-items center
+      justify-content center
+      background-color $grey50
+
+  &__up-arrow
+    width 50px
+    height 50px
+    background url('./images/arrow-up.svg')
+    background-repeat no-repeat
+    background-size contain
+    position absolute
+    right -9%
+    top 50%
+    cursor pointer
+
+  &__drag-arrow
+    display flex
+    align-self center
+    margin 10px
+    cursor pointer
+    background url('./images/move-arrows.svg')
+    width 18px
+    height 18px
+    background-size contain
+    background-repeat no-repeat

@@ -1,0 +1,24 @@
+@import "~shared/view/styles/colors.styl";
+@require "./style.styl";
+
+.checkbox-wrapper_grey
+  .check
+    background-color $grey500
+    border-color $grey500
+    &:after
+      position: absolute;
+      border-color: white;
+      border-style: solid;
+      border-top: 0;
+      border-right-width: 2px;
+      border-bottom-width: 2px;
+      border-left: 0;
+      transform: rotate(45deg);
+      content ''
+      top 1px
+      left 3px
+      width 6px
+      height 9px
+      box-sizing border-box
+      
+      animation custom-checkmark-expand 140ms ease-out forwards

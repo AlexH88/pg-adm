@@ -1,0 +1,147 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react"
+  ],
+  "rulesDirectory": "./node_modules/tslint-eslint-rules/dist/rules",
+  "linterOptions": {
+    "exclude": [
+      "node_modules"
+    ]
+  },
+  "rules": {
+    "quotemark": [true, "single", "jsx-double"],
+    "jsx-alignment": false,
+    "jsx-no-multiline-js": false,
+    "object-literal-sort-keys": false,
+    "member-ordering": false,
+    "ordered-imports": false,
+    "max-line-length": false,
+    "jsx-no-lambda": false,
+  }
+//  "jsRules": {
+//    "indent": [
+//      true,
+//      "spaces",
+//      2
+//    ],
+//    "class-name": true,
+//    "comment-format": [
+//      true,
+//      "check-space"
+//    ],
+//    "no-duplicate-variable": true,
+//    "no-eval": true,
+//    "no-trailing-whitespace": true,
+//    "no-unsafe-finally": true,
+//    "one-line": [
+//      true,
+//      "check-catch",
+//      "check-open-brace",
+//      "check-whitespace"
+//    ],
+//    "noUnusedLocals": false,
+//    "noUnusedParameters": false,
+//    "quotemark": [
+//      true,
+//      "single",
+//      "jsx-double"
+//    ],
+//    "semicolon": [
+//      true,
+//      "always"
+//    ],
+//    "triple-equals": [
+//      true
+//    ],
+//    "variable-name": [
+//      true,
+//      "ban-keywords"
+//    ],
+//    "whitespace": [
+//      true,
+//      "check-branch",
+//      "check-decl",
+//      "check-operator",
+//      "check-separator",
+//      "check-type"
+//    ]
+//  },
+//  "rules": {
+//    "prefer-const": true,
+//    "prefer-for-of": true,
+//    "no-var-requires": true,
+//    "no-console": true,
+//    "jsx-no-multiline-js": false,
+//    "object-literal-sort-keys": false,
+//    "ordered-imports": false,
+//    "arrow-parens": false,
+//    "class-name": true,
+//    "curly": true,
+//    "forin": true,
+//    "no-bitwise": true,
+//    "no-conditional-assignment": true,
+//    "no-dynamic-delete": true,
+//    "no-empty": true,
+//    "no-invalid-template-strings": true,
+//    "no-sparse-arrays": true,
+//    "no-string-literal": true,
+//    "no-tautology-expression": true,
+//    "no-unused-variable": true,
+//    "prefer-object-spread": true,
+//    "radix": true,
+//    "typeof-compare": true,
+//    "use-isnan": true,
+//    "deprecation": true,
+//    "no-default-export": true,
+//    "no-require-imports": true,
+//    "arrow-return-shorthand": true,
+//    "binary-expression-operand-order": true,
+//    "newline-per-chained-call": true,
+//    "no-boolean-literal-compare": true,
+//    "no-unnecessary-initializer": true,
+//    "prefer-while": true,
+//    "align": true,
+//    "eofline": true,
+//    "import-spacing": true,
+//    "newline-before-return": true,
+//    "new-parens": true,
+//    "no-consecutive-blank-lines": true,
+//    "no-irregular-whitespace": true,
+//    "number-literal-format": true,
+//    "prefer-template": [true, "allow-single-concat"],
+//    "prefer-function-over-method": [true, "allow-public", "allow-protected"],
+//    "one-variable-per-declaration": [true, "ignore-for-loop"],
+//    "increment-decrement": [true, "allow-post"],
+//    "no-magic-numbers": true,
+//    "comment-format": [true, "check-space"],
+//    "indent": [true, "spaces", 2],
+//    "ter-indent": [true, 2, { "SwitchCase": 1 }],
+//    "object-curly-spacing": ["error", "always"],
+//    "no-eval": true,
+//    "no-internal-module": true,
+//    "no-trailing-whitespace": true,
+//    "no-unsafe-finally": true,
+//    "no-var-keyword": true,
+//    "one-line": [true, "check-open-brace", "check-whitespace"],
+//    "quotemark": [true, "single", "jsx-double"],
+//    "semicolon": [true, "always"],
+//    "triple-equals": true,
+//    "typedef-whitespace": [true, {
+//      "call-signature": "nospace",
+//      "index-signature": "nospace",
+//      "parameter": "nospace",
+//      "property-declaration": "nospace",
+//      "variable-declaration": "nospace"
+//      }],
+//    "variable-name": [true, "ban-keywords"],
+//    "whitespace": [
+//      true,
+//      "check-branch",
+//      "check-decl",
+//      "check-operator",
+//      "check-separator",
+//      "check-type"
+//    ]
+//  }
+}

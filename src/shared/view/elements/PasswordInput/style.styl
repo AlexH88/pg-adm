@@ -1,0 +1,59 @@
+@import "~shared/view/styles/colors.styl";
+
+.text-password-input
+    padding 14px 0
+    margin-bottom 4px
+    position relative
+.text-password-input .input
+    border 1px solid #a6a6a6
+    height 30px
+    border-radius 3px
+    padding 0
+    box-sizing content-box
+.text-password-input .inputElement
+    display flex
+    align-items center
+    font-size 16px
+    color rgb(33, 33, 33)
+    padding 0 0 0 8px
+    height 30px
+    margin 0
+.text-password-input .label
+    font-size 16px
+    line-height 16px
+    transition-property top, left, font-size, color
+.text-password-input .inputElement ~ .label:not(.fixed),
+.text-password-input .inputElement.filled ~ .label:not(.fixed)
+    left 8px
+    top 8px
+    color rgb(33, 33, 33)
+.text-password-input .inputElement:focus:not([disabled]):not([readonly]) ~ .label:not(.fixed),
+.text-password-input .inputElement.filled ~ .label:not(.fixed)
+    left 0
+    top -14px
+    font-size 12px
+    line-height 12px
+    color $blue400
+.text-password-input .bar:before, .bar:after
+    background-color $blue400
+.text-password-input .error
+    color #de3226
+    position absolute
+    bottom -14px
+    font-size 12px
+    line-height 12px
+    margin 0
+.icon__visible
+    width 30px
+    position absolute
+    right 0px
+    top 18px
+    border-left 1px solid #a3a4a8
+    cursor pointer
+    img
+        display flex
+        margin 0 auto
+        margin-top 3px
+        height 58%
+        &:hover
+            height 65%

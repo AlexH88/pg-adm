@@ -1,0 +1,83 @@
+@import "~shared/view/styles/colors.styl";
+
+.react-ip-input
+  border: 0px solid #c2c3c9 !important
+  font-size 16px
+  color rgb(33, 33, 33)
+  outline none
+
+.react-ip-input input
+  font-size 16px !important
+
+.ip-wrapper
+  position relative
+  padding 14px 0
+  margin-bottom 4px
+
+.ip-wrapper_disabled input
+  pointer-events none
+  cursor not-allowed
+  border-bottom 3px dashed black !important
+
+.ip-wrapper__frame
+  position relative
+  height 32px
+  box-sizing border-box
+  border 1px solid #a6a6a6
+  border-radius 3px
+  overflow hidden
+
+.ip-wrapper__label
+  position absolute
+  left 0
+  top 0
+  font-size 13px
+  line-height 13px
+  color $blue400
+
+.ip-wrapper__bar
+  position relative
+  height 0
+  width 100%
+
+.ip-wrapper__bar:before,
+.ip-wrapper__bar:after
+  position absolute
+  content: '""'
+  transition-duration 0.2s
+  transition-property width
+  background-color $blue400
+  height 2px
+  width 0
+  bottom 0
+
+.ip-wrapper__bar:before
+  left 50%
+
+.ip-wrapper__bar:after
+  right 50%
+
+.ip-wrapper__frame:focus ~ .ip-wrapper__bar:before,
+.ip-wrapper__frame:focus ~ .ip-wrapper__bar:after
+  width 100%
+
+.ip-bar
+  position relative
+  width 100%
+
+.ip-bar:before,
+.ip-bar:after
+  position absolute
+  content: '""'
+  transition-duration 0.4s
+  transition-property width
+  background-color $blue400
+  height 2px
+  width 100%
+  bottom 0
+
+.ip-bar:before
+  left 50%
+
+.ip-bar:after
+  right 50%

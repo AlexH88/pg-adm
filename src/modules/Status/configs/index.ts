@@ -1,0 +1,1 @@
+export { moduleConfigs } from './moduleConfigs';

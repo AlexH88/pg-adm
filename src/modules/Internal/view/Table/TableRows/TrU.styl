@@ -1,0 +1,53 @@
+.item {
+  min-height: 40px;
+  border-bottom: 1px solid #e6eaee;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  padding-left: 4px;
+}
+
+.item:hover {
+  background-color: #e6eaee;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.item-cell {
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.item-checkbox {
+  flex: 0 0 40px;
+  display: flex;
+  align-items: center;
+}
+
+.item-cell-icon {
+  justify-content: center;
+}
+
+.item-cell-icon svg{
+  fill: #30a3e6;
+}
+
+.item-cell-displayName {
+  word-break: break-all;
+}
+
+.item-cell-action {
+  justify-content: flex-end;
+}
+
+.item .item-checkbox > div {
+  visibility: hidden;
+}
+
+.item:hover .item-checkbox > div {
+  visibility: visible;
+}

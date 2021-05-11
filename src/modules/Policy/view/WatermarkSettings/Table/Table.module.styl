@@ -1,0 +1,142 @@
+.file-manager-empty {
+  font-size: 22px;
+  text-align: center;
+  color: #9cadb9;
+  padding: 30px;
+}
+
+.file-manager {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.file-manager-content {
+  width: 100%;
+  position: relative;
+}
+
+.file-manager-divider-selected {
+  margin: 0;
+  height: 1px;
+  border: 0;
+  background-color: #f6f8fb;
+}
+
+.file-manager-divider-deselected {
+  margin: 0;
+  height: 1px;
+  border: 0;
+  background-color: #fff
+}
+
+.file-manager-divider-transparent {
+  margin: 0;
+  height: 1px;
+  border: 0;
+  background-color: transparent;
+}
+
+.header {
+  display: flex;
+  min-height: 60px;
+  margin-bottom: 16px;
+}
+
+.header > div {
+  background-color: #fff;
+}
+
+.item-wrapper,
+.chunk-wrapper {
+  display: flex;
+}
+
+.item-content,
+.chunk-content {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.decoration {
+  flex: 0 1 auto;
+  margin-bottom: 1px;
+  display: flex;
+}
+
+.chunk-wrapper-selected > div:first-child > div {
+  background-color: #fff;
+  box-shadow: -0.5px -2px 3.25px -1px rgba(191,195,207,0.15), -0.5px 2px 3.25px -1px rgba(191,195,207,0.15);
+}
+
+.chunk-wrapper-selected > div:last-child > div {
+  background-color: #fff;
+  box-shadow: 0.5px -2px 3.25px -1px rgba(191,195,207,0.15), 0.5px 2px 3.25px -1px rgba(191,195,207,0.15);
+}
+
+.chunk-wrapper-selected > div:nth-child(2) > div:first-child {
+  position: relative;
+}
+
+.chunk-wrapper-selected > div:nth-child(2) > div:first-child:before {
+  box-shadow: 0 -5px 5px -4.5px inset rgba(191,195,207,0.25);
+  content: " ";
+  width: 100%;
+  top: -5px;
+  position: absolute;
+  left: 0;
+  height: 5px;
+}
+
+.chunk-wrapper-selected > div:nth-child(2) > div:last-child {
+  position: relative;
+}
+
+.chunk-wrapper-selected > div:nth-child(2) > div:last-child:after {
+  box-shadow: 0 5px 5px -4.5px inset rgba(191,195,207,0.25);
+  content: " ";
+  width: 100%;
+  bottom: -5px;
+  position: absolute;
+  left: 0;
+  height: 5px;
+}
+
+.chunk-wrapper-selected > div > div {
+  background-color: #fff;
+}
+
+.item-wrapper-deselected:hover > div > div {
+  background-color: rgba(255, 255, 255, 0.45);
+}
+
+.header-cell {
+  display: flex;
+  align-items: center;
+}
+
+.header-cell-insulation {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #475f7b;
+  overflow-wrap: break-word;
+}
+
+.header-cell-action {
+  justify-content: flex-end;
+}
+
+.header-checkbox {
+  flex: 0 0 40px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1280px) {
+  .header-cell-availableTo {
+    display: none;
+  } 
+}

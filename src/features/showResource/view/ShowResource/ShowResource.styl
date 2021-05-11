@@ -1,0 +1,82 @@
+@import "~shared/view/styles/colors.styl";
+
+.show-resource
+  padding-left 20px
+  position relative
+
+  &__filters
+    padding 15px 0 0 0
+
+  &__controls
+    padding-bottom 15px
+    display flex
+    
+  &__title
+    font-size 1.5rem
+    display inline-block
+    margin-right 10px
+
+  &__icon-btn-wrapper
+    height 32px
+    width 32px
+    box-sizing border-box
+    margin-right 16px
+
+  &__multi-edit-btn
+    margin-left 1rem
+    cursor pointer
+    background-color rgba(128, 128, 128, .26)
+    border-radius 3px
+    line-height 32px
+    padding 0 1rem
+    &_pressed
+      background-color rgb(204, 204, 204)
+
+  &__edit-template-btn
+    margin-left 1rem
+    cursor pointer
+    background-color rgba(128, 128, 128, .26)
+    border-radius 3px
+    line-height 32px
+    padding 0 1rem
+    margin-left 0px
+    background #2196f3
+    opacity 0.7
+    color white
+    &_pressed
+      background-color rgb(204, 204, 204)
+    &:hover
+      opacity 1
+
+  &__title
+    font-size 1.5rem
+    display inline-block
+    margin-right 10px
+    padding 10px 0
+
+  // cause table dont provide mechanism for additional renders
+  &__multi-edit-btn
+    top 0
+  &__select-cols-btn
+    //position absolute
+    display inline
+    padding-left 10px
+    //float: right
+    margin auto
+    z-index 101
+
+  .footer-btn
+    display flex
+    flex-direction row
+    justify-content flex-end
+    margin 10px 0
+
+.disabled
+  background-color: rgb(199, 200, 206);
+  color: rgb(236, 237, 241);
+  box-shadow: none;
+  cursor: default;
+  pointer-events: none;
+
+.data-table__row
+  display inline-flex !important

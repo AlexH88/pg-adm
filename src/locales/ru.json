@@ -1,0 +1,1018 @@
+{
+  "ws": {
+    "admin": {
+      "encryption": "Encrypted",
+      "decryption": "Decrypted",
+      "file": "file",
+      "of": "of"
+    }
+  },
+  "features": {
+    "errorMessage": "У вас нет разрешения на доступ / на этом сервере",
+    "cancel": "Отмена",
+    "save": "Сохранить",
+    "groups": "Группы",
+    "syncUser": "Вы собираетесь синхронизировать пользователей :",
+    "delUser": "Вы собираетесь удалить из базы пользователей : ",
+    "synchronization": "Синхронизация",
+    "synchronized": "Синхронизированные",
+    "nosynchronized": "Несинхронизированные",
+    "close": "Закрыть",
+    "errorSync": "Произошла ошибка при синхронизации",
+    "errCancel": "Ошибка отмены синхронизации. Принтер не отвечает",
+    "errSync": "Ошибка синхронизации. Принтер не отвечает",
+    "edit": "Множественное редактирование"
+  },
+  "printers": {
+    "labelHeader": "Принтеры > Сетевые > Все принтеры",
+    "printers": "Принтеры",
+    "network": "Сетевые",
+    "allPrintes": "Все принтеры",
+    "attentionRemove": "Внимание! Принтер будет удалён",
+    "settings": "Параметры принтера",
+    "name": "Наименование"
+  },
+  "EditPrinterForm": {
+    "price": "Цена",
+    "formatPrice": "Цена с учетом формата",
+    "PriceA3": "Цена за а3",
+    "PriceA4": "Цена за а4",
+    "PriceA5": "Цена за а5",
+    "colorCoeff": "Коэффициент за цветную печать",
+    "duplexPrice": "Цена с учетом двухсторонней печати",
+    "colorPrice": "Цена с учетом цвета",
+    "duplexCoeff": "Коэффициент за двухстороннюю печать",
+    "rfid": "Печать по карте",
+    "uid": "Идентификатор считывателя*",
+    "cancel": "Отмена",
+    "save": "Сохранить",
+    "name": "Наименование",
+    "is_followme": "Двухфакторная аутентификация",
+    "rfidr_uid": "Идентификатор считывателя*"
+  },
+  "printersLocal": {
+    "labelHeader": "Принтеры > Локальные > Все принтеры",
+    "printers": "Принтеры",
+    "local": "Локальные",
+    "allPrintes": "Все принтеры",
+    "settings": "Параметры принтера"
+  },
+  "users": {
+    "usersHeader": "Пользователи > Все пользователи",
+    "settings": "Параметры пользователя",
+    "user": "Пользователь",
+    "willDeleted": "будет удален из базы"
+  },
+  "AddUserForm": {
+    "login": "Логин*",
+    "name": "Имя*",
+    "email": "Почта*",
+    "card": "Номер карты",
+    "balance": "Баланс",
+    "cancel": "Отмена",
+    "save": "Сохранить"
+  },
+  "Groups": {
+    "groupsHeader": "Пользователи > Группы",
+    "settings": "Параметры группы",
+    "group": "Группа",
+    "willDeleted": "будет удалена из базы",
+    "Yes": "Да",
+    "Not": "Нет",
+    "update": "Обновление",
+    "accrual": "Начисление"
+  },
+  "AddGroupForm": {
+    "name": "Наименование*",
+    "initialCredit": "Первоначальный взнос*",
+    "initialRestricted": "Отрицательный баланс",
+    "amount": "Размер начисления*",
+    "period": "Период*",
+    "daily": "Ежедневно",
+    "weekly": "Еженедельно",
+    "monthly": "Ежемесячно",
+    "update": "Обновление",
+    "accrual": "Начисление",
+    "cancel": "Отмена",
+    "save": "Сохранить"
+  },
+  "FilterSelect": {
+    "addFilter": "Добавить фильтр"
+  },
+  "DisplaySelect": {
+    "content": "Содержимое"
+  },
+  "RemoveModal": {
+    "attention": "Внимание",
+    "cancel": "Отмена",
+    "delete": "Удалить"
+  },
+  "PrintServers": {
+    "printServerHeader": "Агенты > Сетевые > Принт-серверы",
+    "deleteAgent": "Внимание! Принт-сервер будет удалён",
+    "syncPrintServer": "Синхронизация принтеров на принте-сервере"
+  },
+  "PC": {
+    "pcHeader": "Агенты > Локальные > ПК",
+    "switchLog": "Запрос лога",
+    "cancel": "Отмена",
+    "isPrimary": "Запросить лог",
+    "removeAgent": "Агент будет удален!"
+  },
+  "GroupsPC": {
+    "groupsPCHeader": "Агенты > Локальные > Группы ПК",
+    "addGropu": "Добавление группы",
+    "groupProperties": "Свойства группы",
+    "deletedGropu": "Группа будет удалена из базы!"
+  },
+  "EditHostGroup": {
+    "name": "Наименование*",
+    "version": "Версия",
+    "restart": "Перезапуск агента",
+    "activate": "Активировать",
+    "deactivate": "Деактивировать",
+    "cancel": "Отмена",
+    "save": "Сохранить"
+  },
+  "AddHostGroup": {
+    "name": "Наименование*",
+    "version": "Версия",
+    "cancel": "Отмена",
+    "save": "Сохранить"
+  },
+  "PrinterGroups": {
+    "printerGroupHeader": "Принтеры > Группы",
+    "addGroup": "Добавление группы",
+    "willDeleted": "Группа будет удалена из базы!"
+  },
+  "AddPrinterGroup": {
+    "name": "Наименование*",
+    "cancel": "Отмена",
+    "save": "Сохранить"
+  },
+  "Rfidreaders": {
+    "header": "Считыватели"
+  },
+  "TimePolicies": {
+    "header": "Политики > Временные политики",
+    "temporaryPolicy": "Параметры временной политики",
+    "activatePolicy": "Активировать политику?",
+    "Yes": "Да",
+    "Not": "Нет"
+  },
+  "RestrictionPolicies": {
+    "header": "Политики > Ограничительные политики",
+    "policySettings": "Параметры ограничительной политики",
+    "deleted": "Политика будет удалена из базы!",
+    "activatePolicy": "Активировать политику?",
+    "Yes": "Да",
+    "Not": "Нет"
+  },
+  "AgentPolicies": {
+    "header": "Политики > Политики агента",
+    "policySettings": "Параметры политики агента",
+    "activatePolicy": "Активировать политику?",
+    "activates": "Активирует",
+    "deactivates": "Деактивирует"
+  },
+  "BackupPolicies": {
+    "header": "Политики > Политики теневых копий",
+    "policySettings": "Параметры политики теневых копий",
+    "deleted": "Политика будет удалена из базы!",
+    "activate": "Активировать политику?"
+  },
+  "Rules": {
+    "FilterResource": "Политики > Правила >",
+    "settings": "Параметры правила",
+    "newRule": "Новое правило",
+    "deleted": "Правило будет удалено из базы!",
+    "policy": "Политика",
+    "change": "будет изменена!"
+  },
+  "MarkPolicies": {
+    "header": "Политики > Политики меток",
+    "tags": "Текстовые метки",
+    "decrypt": "Расшифровать",
+    "policySettings": "Параметры политики",
+    "decryption": "Расшифровка",
+    "deleted": "Политика будет удалена из базы!",
+    "activate": "Активировать"
+  },
+  "MultiSelectField": {
+    "allGroupsSelected": "По умолчанию выбраны все группы",
+    "addGroup": "Добавить группу",
+    "groups": "Группы"
+  },
+  "SelectTimeField": {
+    "printingHours": "Часы печати",
+    "printingDays": "Дни печати"
+  },
+  "AddAgentPolicyForm": {
+    "header": "Группа агентов",
+    "name": "Наименование",
+    "days": "Дни",
+    "hours": "Часы",
+    "action": "Действие",
+    "cancel": "Отмена",
+    "save": "Сохранить",
+    "activates": "Активирует",
+    "deactivates": "Отключает"
+  },
+  "AddCopyForm": {
+    "name": "Наименование*",
+    "printerGroups": "Группа принтеров",
+    "userGroups": "Группа пользователей",
+    "cancel": "Отмена",
+    "add": "Добавить"
+  },
+  "AddEconomyPolicyForm": {
+    "printergroups": "Группа принтеров",
+    "usergroups": "Группа пользователей",
+    "name": "Наименование*",
+    "seal": "Ч/б печать",
+    "duplex": "Двухсторонняя печать",
+    "economical": "Режим экономии",
+    "cancel": "Отмена",
+    "add": "Добавить"
+  },
+  "AddPolicyForm": {
+    "name": "Наименование*",
+    "description": "Описание",
+    "printerGroups": "принтеров",
+    "userGroups": "пользователей",
+    "days": "Дни",
+    "hours": "Часы",
+    "documentFormatSet": "Формат печати",
+    "color": "Цветная печать",
+    "duplex": "Двухсторонняя печать",
+    "cancel": "Отмена",
+    "save": "Сохранить"
+  },
+  "AddRuleForm": {
+    "printergroups": "Группа принтеров",
+    "usergroups": "Группа пользователей",
+    "name": "Наименование*",
+    "days": "Дни",
+    "hours": "Часы",
+    "action": "Действие",
+    "cancel": "Отмена",
+    "add": "Добавить",
+    "alert": "Оповещение"
+  },
+  "AddTextMarkForm": {
+    "name": "Наименование*",
+    "tag": "Текст метки",
+    "encrypted": "Зашифровать",
+    "user": "пользователь",
+    "printer": "printer",
+    "printTime": "время печати",
+    "printDate": "дата печати",
+    "hostName": "имя хоста",
+    "save": "Сохранить"
+  },
+  "DecryptForm": {
+    "Cipher": "Шифр*",
+    "Decrypt": "Расшифровать"
+  },
+  "EditRuleForm": {
+    "printergroups": "Группа принтеров",
+    "usergroups": "Группа пользователей",
+    "name": "Наименование*",
+    "days": "Дни",
+    "hours": "Часы",
+    "action": "Действие",
+    "cancel": "Отмена",
+    "save": "Сохранить",
+    "alert": "Оповещение"
+  },
+  "Jobs": {
+    "Journal": "Журнал",
+    "Yes": "Да",
+    "Not": "Нет",
+    "cb": "Ч/Б",
+    "Color": "Цветная"
+  },
+  "mocks": {
+      "filterResourceConfigMocks": {
+      "name": "Имя",
+      "initialCredit": "Первоначальный взнос",
+      "initialRestricted": "Отрицательный баланс",
+      "amount": "Сумма начисления",
+      "period": "Период",
+      "type": "Тип начисления"
+    },
+    "aggregateStats": {
+      "totalItems": "Итого записей",
+      "totalPages": "Итого страниц",
+      "totalJobs": "Итого заданий"
+    },
+    "configsDescription": {
+      "login": "Логин",
+      "name": "Имя",
+      "email": "Почта",
+      "balance": "Баланс",
+      "pageCount": "Распечатанныx страниц",
+      "jobCount": "Распечатанныx заданий",
+      "filters": {
+        "login": "По логину",
+        "name": "По имени",
+        "usergroups": "По группе",
+        "catalogs": "По каталогу"
+      },
+      "aggregates": {
+        "totalItems": "Итого записей",
+        "totalPages": "Итого страниц"
+      },
+      "usergroups": {
+        "params": {
+          "name": "Имя",
+          "initialCredit": "Первоначальный взнос",
+          "initialRestricted": "Отрицательный баланс",
+          "amount": "Размер начисления",
+          "period": "Период",
+          "type": "Тип начисления"
+        },
+        "filters": {
+          "name": "По имени",
+          "catalog": "По каталогу"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей",
+          "totalPages": "Итого страниц"
+        }
+      },
+      "catalogs": {
+        "params": {
+          "name": "Имя",
+          "type": "Тип"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей"
+        }
+      },
+      "catalogsUpd": {
+        "params": {
+          "catalog": "Каталог",
+          "user": "Пользователь",
+          "host": "Хост",
+          "port": "Порт",
+          "baseDn": "Base DN",
+          "loginAttr": "LDAP атрибут логина",
+          "emailAttr": "LDAP атрибут почты",
+          "prefix": "Prefix",
+          "status": "Статус"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей"
+        }
+      },
+      "timePolicy": {
+        "params": {
+          "actively": "Активно",
+          "name": "Наименование",
+          "description": "Описание",
+          "owner": "Владелец",
+          "userGroups": "Пользователи",
+          "printerGroups": "Принтеры",
+          "hours": "Часы",
+          "days": "Дни"
+        },
+        "filters": {
+          "name": "По наименованию"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей"
+        }
+      },
+      "policies": {
+        "params": {
+          "state": "Активно",
+          "name": "Наименование",
+          "description": "Описание",
+          "owner": "Владелец"
+        },
+        "filters": {
+          "name": "Имя"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей"
+        }
+      },
+      "agentPolicies": {
+        "params": {
+          "state": "Активно",
+          "name": "Наименование",
+          "days": "Дни",
+          "hours": "Часы",
+          "hostgroups": "Группы агентов",
+          "actions": "Действие"
+        },
+        "filters": {
+          "name": "По наименованию"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей"
+        }
+      },
+      "backupPolicy": {
+        "params": {
+          "state": "Активно",
+          "name": "Наименование",
+          "owner": "Владелец",
+          "userGroups": "Группы пользователей",
+          "printerGroups": "Группы принтеров"
+        },
+        "filters": {
+          "name": "По наименованию"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей"
+        }
+      },
+      "restrictionPolicy": {
+        "params": {
+          "state": "Активно",
+          "name": "Наименование",
+          "owner": "Владелец",
+          "userGroups": "Группы пользователей",
+          "printerGroups": "Группы принтеров",
+          "color": "Цветная печать",
+          "duplex": "Двухсторонняя печать",
+          "documentFormatSet": "Формат печати"
+        },
+        "filters": {
+          "name": "По наименованию"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей"
+        }
+      },
+      "watermarkPolicy": {
+        "params": {
+          "state": "Активно",
+          "name": "Наименование",
+          "owner": "Владелец",
+          "userGroups": "Группы пользователей",
+          "printerGroups": "Группы принтеров"
+        },
+        "filters": {
+          "name": "По наименованию"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей"
+        }
+      },
+      "rules": {
+        "params": {
+          "usergroups": "Пользователи",
+          "printergroups": "Принтеры",
+          "hours": "Часы",
+          "days": "Дни",
+          "action": "Действие",
+          "alert": "Оповещение"
+        }
+      },
+      "labelPolicies": {
+        "params": {
+          "actively": "Активно",
+          "name": "Наименование",
+          "owner": "Владелец",
+          "usergroups": "Группы пользователей",
+          "printergroups": "Группы принтеров"
+        },
+        "filters": {
+          "name": "Имя"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей",
+          "totalPages": "Итого страниц"
+        }
+      },
+      "textLabels": {
+        "params": {
+          "name": "Наименование",
+          "tag": "Текст метки",
+          "encrypted": "Зашифровано"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей",
+          "totalPages": "Итого страниц"
+        }
+      },
+      "jobs": {
+        "params": {
+          "login": "Логин",
+          "catalogName": "Каталог",
+          "printer": "Принтер",
+          "host": "Хост",
+          "namefile": "Имя файла",
+          "price": "Цена",
+          "spoolSize": "Размер",
+          "pages": "Страниц",
+          "copies": "Копии",
+          "inputTime": "Время отправки",
+          "outputTime": "Время печати",
+          "typeprint": "Тип печати",
+          "format": "Формат",
+          "duplex": "Двухсторонняя печать",
+          "status": "Статус"
+        },
+        "filters": {
+          "login": "По логину",
+          "printer": "По имени принтера",
+          "filename": "По имени файла",
+          "usergroups": "По группам пользователей",
+          "printergroups": "По группам принтеров",
+          "catalogs": "По каталогам пользователей",
+          "status": "По статусу печати",
+          "danyBalance": "Отказ (нет средств)",
+          "danyTimePolicy": "Отказ (правило по времени)",
+          "danyRestrictionPolicy": "Отказ (правило по доступу)",
+          "printed": "Распечатано",
+          "fileUpload": "Обрабатывается",
+          "init": "Ожидает",
+          "error": "Ошибка",
+          "queue": "В очереди",
+          "colorprint": "Цветная печать",
+          "Yes": "Да",
+          "Not": "Нет",
+          "duplex": "Двухсторонняя печать",
+          "format": "Формат печати"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей",
+          "totalPages": "Итого страниц"
+        }
+      },
+      "printersNetwork":{
+        "params": {
+          "name": "Наименование",
+          "driver": "Драйвер",
+          "mac": "MAC-адрес",
+          "price": "Цена, ₽",
+          "a3Price": "Цена за А3, ₽",
+          "a4Price": "Цена за А4, ₽",
+          "a5Price": "Цена за А5, ₽",
+          "colorCoeff": "Коэффициент за цветную Печать",
+          "duplexCoeff": "Коэффициент за двухстороннюю печать",
+          "pageCount": "Страниц",
+          "jobCount": "Заданий"
+        },
+        "filters": {
+          "name": "По наименованию",
+          "driver": "По драйверу",
+          "printergroups": "По группам",
+          "host": "По хостам"
+        },
+        "aggregates":{
+          "totalItems": "Итого записей",
+          "totalPages": "Итого страниц"
+        }
+      },
+      "printersLocal": {
+        "params": {
+          "name": "Наименование",
+          "driver": "Драйвер",
+          "mac": "MAC-адрес",
+          "price": "Цена, ₽",
+          "a3Price": "Цена за А3, ₽",
+          "a4Price": "Цена за А4, ₽",
+          "a5Price": "Цена за А5, ₽",
+          "colorCoeff": "Коэффициент за цветную Печать",
+          "duplexCoeff": "Коэффициент за двухстороннюю печать",
+          "pageCount": "Страниц",
+          "jobCount": "Заданий"
+        },
+        "filters": {
+          "name": "По наименованию",
+          "driver": "По Подключению",
+          "printergroups": "По группам",
+          "mac": "По MAC-адресу"
+        },
+        "aggregates":{
+          "totalItems": "Итого записей",
+          "totalPages": "Итого страниц"
+        }
+      },
+      "hostsNetwork": {
+        "params": {
+          "name": "Имя хоста"
+        },
+        "filters": {
+          "name": "По имени хоста",
+          "ip": "По IP"
+        },
+        "aggregates":{
+          "totalItems": "Итого записей",
+          "totalPages": "Итого страниц"
+        }
+      },
+      "hostsLocal": {
+        "params": {
+          "name": "Имя хоста",
+          "mac": "MAC-адрес",
+          "groups": "Группы",
+          "version": "Версия"
+        },
+        "filters": {
+          "name": "По имени хоста",
+          "ip": "По IP",
+          "hostgroups": "По группам",
+          "version": "По версиям",
+          "active": "По активности",
+          "act": "Активен",
+          "noact": "Не активен"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей",
+          "totalPages": "Итого страниц"         
+        }
+      },
+      "userReports": {
+        "params": {
+          "user": "Пользователь",
+          "price": "Общая стоимость",
+          "jobs": "Количество заданий",
+          "pages": "Количество страниц"
+        },
+        "filters": {
+          "printer": "По имени принтера",
+          "usergroup": "По группе пользователей",
+          "printergroup": "По группе принтеров",
+          "outputtime": "По времени печати"
+        }
+      },
+      "userTimereports": {
+        "filters": {
+          "interval": "Временной интервал",
+          "step": "Шаг",
+          "type": "Тип",
+          "price": "Общая стоимость",
+          "jobs": "Кол-во заданий",
+          "pages": "Кол-во страниц",
+          "select": "Выбрать",
+          "name1": "Петя",
+          "name2": "Вася",
+          "outputTime": "По времени печати"
+        }
+      },
+      "userGroupsReports": {
+        "params": {
+          "groupName": "Группа пользователей",
+          "price": "Общая стоимость",
+          "jobs": "Кол-во заданий",
+          "pages": "Кол-во страниц"
+        },
+        "filters": {
+          "printer": "По имени принтера",
+          "printergroup": "По группе принтеров",
+          "outputTime": "По времени печати"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей",
+          "totalPages": "Итого страниц"         
+        }
+      },
+      "printerReports": {
+        "params": {
+          "printer": "Принтеры",
+          "price": "Общая стоимость",
+          "jobs": "Количество заданий",
+          "pages": "Количество страниц"
+        },
+        "filters": {
+          "user": "По пользователям",
+          "usergroup": "По группе пользователей",
+          "printergroup": "По группе принтеров",
+          "outputTime": "По времени печати"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей",
+          "totalPages": "Итого страниц"         
+        }
+      },
+      "printerGroupsReports": {
+        "params": {
+          "groupName": "Группы принтеров",
+          "price": "Общая стоимость",
+          "jobs": "Количество заданий",
+          "pages": "Количество страниц"
+        },
+        "filters": {
+          "user": "По пользователям",
+          "usergroup": "По группе пользователей",
+          "outputTime": "По времени печати"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей",
+          "totalPages": "Итого страниц"         
+        }
+      },
+      "regularReports": {
+        "params": {
+          "type": "Тип отчета",
+          "period": "Период выпуска",
+          "emails": "Почта"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей",
+          "totalPages": "Итого страниц"         
+        }
+      },
+      "snmp": {
+        "params": {
+          "hostname": "Хост",
+          "modelName": "Имя модели"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей",
+          "totalPages": "Итого страниц"
+        }
+      },
+      "oid": {
+        "params": {
+          "firmware": "Прошивка",
+          "oid": "OID",
+          "vendor": "Производитель",
+          "deviceStatus": "Статус устройства",
+          "printingStatus": "Статус печати",
+          "printed": "Напечатано",
+          "blackTonerMax": "Чёрный тонер макс.",
+          "blackTonerCurrent": "Чёрный тонер",
+          "blackTonerPercent": "Чёрный тонер %",
+          "cyanTonerMax": "Голубой тонер макс.",
+          "cyanTonerCurrent": "Голубой тонер",
+          "cyanTonerPercent": "Голубой тонер %",
+          "yellowTonerMax": "Жёлтый тонер макс.",
+          "yellowTonerCurrent": "Жёлтый тонер",
+          "yellowTonerPercent": "Жёлтый тонер %",
+          "magentaTonerMax": "Фиолетовый тонер макс.",
+          "magentaTonerCurrent": "Фиолетовый тонер",
+          "magentaTonerPercent": "Фиолетовый тонер %"
+
+        },
+        "aggregates": {
+          "totalItems": "Итого записей",
+          "totalPages": "Итого страниц"
+        }
+      },
+      "printergroups": {
+        "params": {
+          "name": "Наименование"
+        },
+        "filters": {
+          "name": "По наименованию"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей",
+          "totalPages": "Итого страниц"
+        }
+      },
+      "hostgroups": {
+        "params": {
+          "name": "Наименование",
+          "version": "Версия"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей",
+          "totalPages": "Итого страниц"
+        }
+      },
+      "reader": {
+        "params": {
+          "uid": "Идентификатор"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей",
+          "totalPages": "Итого страниц"
+        }
+      },
+      "roles": {
+        "params": {
+          "name": "Название",
+          "description": "Описание"
+        }
+      },
+      "actionEvents": {
+        "params": {
+          "op": "Имя оператора",
+          "description": "Описание действия",
+          "eventTime": "Время действия"
+        },
+        "filters": {
+          "name": "По имени оператора",
+          "eventTime": "По времени действия"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей",
+          "totalPages": "Итого страниц"
+        }
+      },
+      "printerApiEvents": {
+        "params": {
+          "hostname": "Хост",
+          "description": "Описание ошибки",
+          "eventTime": "Время наступления ошибки"
+        },
+        "filters": {
+          "hostname": "По хосту"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей",
+          "totalPages": "Итого страниц"
+        }
+      },
+      "alerts": {
+        "params": {
+          "name": "Название обовещения",
+          "description": "Описание"
+        },
+        "filters": {
+          "name": "По названию"
+        },
+        "aggregates": {
+          "totalItems": "Итого записей",
+          "totalPages": "Итого страниц"
+        }
+      },
+      "blockedprinters": {
+        "params": {
+          "driver": "Имя драйвера"
+        }
+      }
+    }
+  },
+  "SRole": {
+    "header": "Настройки > Администрирование > Роли",
+    "setingsRole": "Параметры роли",
+    "deleted": "Роль будет удалена из базы!"
+  },
+  "EditRoles": {
+    "name": "Название",
+    "description": "Описание",
+    "cancel": "Отмена",
+    "save": "Сохранить"
+  },
+  "SOperators": {
+    "header": "Настройки > Администрирование > Операторы",
+    "settingOperator": "Параметры оператора",
+    "deleted": "Оператор будет удален из базы!",
+    "login": "Логин",
+    "email": "Почта",
+    "role": "Роль"
+  },
+  "EditOperators": {
+    "login": "Логин",
+    "email": "Почта",
+    "role": "Роль",
+    "password": "Пароль",
+    "cancel": "Отмена",
+    "save": "Сохранить"
+  },
+  "Ignored": {
+    "header": "Настройки > Игнорируемые принтеры",
+    "addIg": "Добавление игнорируемого принтера",
+    "deleted": "Принтер будет удалён!" 
+  },
+  "AddBlockedPrinter": {
+    "driver": "Имя драйвера",
+    "cancel": "Отмена",
+    "save": "Сохранить"
+  },
+  "Features": {
+    "settings": "Настройки",
+    "snmp": "Настройка SNMP и RFID",
+    "functional": "Функциональные возможности",
+    "activate": "Активировать SNMP",
+    "activateRFID": "Активировать RFID",
+    "settingdLocalAgent": "Настройки локальных агентов",
+    "constPrint": "Постраничная печать",
+    "blockPrint": "Блокировка печати на локальные принетры",
+    "tiemout": "Таймаут до блокировки печати на локальные принтеры, ч.",
+    "apply": "Применить"
+  },
+  "About": {
+    "header": "На время обновления программа будет недоступна. Продолжить ?",
+    "Yes": "Да",
+    "Not": "Нет",
+    "license": "Установка лицензии",
+    "versions": "Версии, доступные для обновления:",
+    "notVersions": "нет доступных версий",
+    "update": "Обновить",
+    "currentLicense": "Текущая лицензия:",
+    "numberPrinters":"Количество принтеров:",
+    "numberUsers": "Количество пользователей:",
+    "numberCompounds": "Количество соединений:",
+    "valid":"Действительна до:",
+    "notLicense": "Лицензия отсутствует",
+    "installLicense": "Установить лицензию"
+  },
+  "Status":{
+    "mostPrintedGroups": "Самые печатающие группы",
+    "mostUsedPrinters": "Самые используемые принтеры",
+    "printedPages": "Распечатанные страницы",
+    "growthOfprintDynamics": "Рост динамики печати по группам",
+    "selectChart": "Выбрать графики",
+    "byDay": "по дням",
+    "mostTypingUsers": "Самые печатающие пользователи в группе",
+    "byweek": "по неделям",
+    "bymonth": "по месяцам"
+  },
+  "Agents": {
+    "agents": "Агенты печати",
+    "hostsNetwork": "Принт-серверы",
+    "hostsLocal": "Локальные ПК",
+    "hostgroupsLocal": "Группы локальных ПК"
+  },
+  "UsersLk": {
+    "users": "Пользователи",
+    "usersL": "Пользователи",
+    "usergroupsL": "Группы",
+    "catalogsL": "Каталоги",
+    "catalogsUpd": "Каталоги-upd"
+  },
+  "PrinterLk": {
+    "printers": "Принтеры",
+    "printersNetwork": "Сетевые",
+    "printersLocal": "Локальные",
+    "printergroups": "Группы",
+    "readers": "Считыватели"
+  },
+  "PolicyLk":{
+    "policy": "Политики",
+    "timePolicies": "Временные политики",
+    "backupPolicies": "Политики теневых копий",
+    "restrictionPolicies": "Ограничительные политики",
+    "watermarkPolicies": "Политики водяных знаков",
+    "labelHeader": "Политики > Политики водяных знаков",
+    "watermarkPolicySettings": "Параметры политики водяных знаков",
+    "watermarkSettings": "Настройки водяных знаков",
+    "policyDeleted": "Политика будет удалена из базы!",
+    "activatePolicy": "Активировать политику?",
+    "investigation": "Расследование",
+    "investigationHeader": "Политики > Расследование"
+  },
+  "JournalLk": {
+    "journal": "Журнал"
+  },
+  "SettingsLk": {
+    "settings": "Настройки",
+    "administration": "Администрирование",
+    "roles": "Роли",
+    "operators": "Операторы",
+    "features": "Функциональные возможности",
+    "blockedPrinters": "Игнорируемые принтеры",
+    "smtp": "Настройки почты"
+  },
+  "StatusL": {
+    "title": "Статус"
+  },
+  "LoginForm": {
+    "login": "Логин",
+    "password": "Пароль",
+    "errorMessage": "Неверный логин или пароль",
+    "comeIn": "Войти"
+  },
+  "Reports": {
+    "title": "Отчеты",
+    "administrator": "Администратор",
+    "day": "день",
+    "week": "неделя",
+    "year": "год",
+    "price": "By price",
+    "jobs": "По кол-ву заданий",
+    "pages": "По кол-ву страниц",
+    "bargraph": "Гистограмма",
+    "piechart": "Круговая диаграмма",
+    "labelHeader": "Отчеты > Администрирование"
+  },
+  "Search": {
+    "search": "Поиск"
+  },
+  "Report": {
+    "title": "Отчет",
+    "dateFrom": "Дата от",
+    "dateTo": "Дата до",
+    "byPrinters": "По принтерам",
+    "byUsers": "По пользователям",
+    "byUserGroups": "По группам пользователей",
+    "byPrinterGroup": "По группам принтеров",
+    "parametrsReport": "Параметры отчета"
+  },
+  "Validate": {
+    "requiredField": "Это поле обязательно для заполнения",
+    "requiredFieldMail": "Введите корректный email",
+    "requiredFieldDays": "Разница дат должна быть не более 30 дней"
+  },
+  "GroupForm": {
+    "update": "Обновление",
+    "accrual": "Начисление",
+    "daily": "Ежедневно",
+    "weekly": "Еженедельно",
+    "monthly": "Ежемесячно",
+    "name": "Наименование*",
+    "initialFee": "Первоначальный взнос*",
+    "negativeBalance": "Отрицательный баланс*",
+    "accrualAmount": "Размер начисления*"
+  }
+}

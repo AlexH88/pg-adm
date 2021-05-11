@@ -1,0 +1,244 @@
+@import "~shared/view/styles/colors.styl";
+
+.show-resource
+  padding-left 40px
+  position relative
+
+  &__filters
+    padding 15px 0 0 0
+
+  &__controls
+    padding-bottom 15px
+    display flex
+    
+  &__title
+    font-size 1.5rem
+    display inline-block
+    margin-right 10px
+
+  &__add-btn
+    height 32px
+    width 32px
+    box-sizing: border-box
+
+  &__title
+    font-size 1.5rem
+    display inline-block
+    margin-right 10px
+    padding 10px 0
+
+  // cause table dont provide mechanism for additional renders
+  &__multi-edit-btn
+    top 0
+  &__select-cols-btn
+    //position absolute
+    display inline
+    padding-left 10px
+    //float: right
+    margin auto
+    z-index 101
+
+
+  &__container
+    display flex
+    width 100%
+    height 535px
+    justify-content space-between
+
+  &__plan-floor
+    display flex
+    flex-direction column
+    align-items center
+    justify-content space-around
+    width 70%
+    background-color #fff
+    border solid 1px #d8d8d8
+    border-bottom 0
+    border-right 0
+
+  &__plan-floor-img
+    position relative
+    display block 
+    width 100% !important
+    height 85%
+    background-color #fff
+
+
+  &__bodyPicture
+    display block 
+    // width 100vw 
+    // height 100vh
+    background-color #fff
+    position relative
+    // left 0
+    // top 0
+
+  &__bodyPicture-wrapper
+    background: rgba(0, 0, 0, 0.8);
+    display flex
+    justify-content center
+    align-items center
+    width 100vw
+    height 100vh
+    position fixed
+    left 0
+    top 0
+
+  &__plan-floor-bodyPictureOpen
+    position absolute
+    top 18px
+    right 18px
+  
+  &__bodyPicture-close
+    position absolute   
+    top 20px
+    right 20px
+
+
+  &__plan-floor-btn
+    position absolute
+    bottom 18px
+    right 18px
+
+  &__printers
+    display flex
+    width 30%
+    flex-direction column
+    justify-content flex-start
+    // align-items center
+    border solid 1px #d8d8d8
+    border-bottom 0
+
+
+  &__btn-wrapper
+    width 100%
+    height 12%
+    display flex
+    justify-content center
+    align-items center
+    border-bottom 1px solid #d8d8d8
+
+    button 
+      height 30px
+      cursor pointer
+      background-color rgba(128, 128, 128, .26)
+      border-radius 3px
+      line-height 32px
+      padding 0 1rem
+      outline none
+      border none
+      &:active
+        background-color #d8d8d8
+      span 
+        font-size 1rem
+
+  &__printers-wrapper
+    display flex
+    width 100%
+    height 88%
+    align-items center
+    flex-direction column
+
+  &__addPrinters-wrap
+    width 100%
+    border-bottom 1px solid #d8d8d8
+    display flex
+    justify-content flex-start
+    background-color #fff
+    &:hover
+      background-color #dedede !important
+
+
+  &__addPrinters
+    width 80%
+    font-size 13px
+    display flex
+    justify-content center
+    p
+      width 90%
+      cursor pointer
+
+
+
+
+  &__addPrinters-array
+    overflow auto
+    display flex
+    flex-direction column
+    width 100%
+    height 100%
+    box-sizing: border-box
+
+  &__AutocompleteFilter
+    padding-bottom 13px
+    width 100%
+    display flex
+    justify-content flex-start
+    border-bottom 1px solid #d8d8d8
+    padding-left 12px
+    box-sizing: border-box
+
+  &__status
+    text-align center 
+    width 100%
+    // &:hover
+    //   background-color #d8d8d8
+    //   cursor pointer
+  
+  &__infoBlockArray
+    display none
+
+  &__icon-info
+    width 10%
+    height 100%
+    position relative
+    display flex
+    justify-content center
+    align-items center
+    color #2196f3
+    cursor pointer
+    &_error
+      color tomato !important
+    svg
+      &:hover
+        color #000
+    &:hover
+      div
+        display flex
+        width 115px
+        height auto
+        padding 10px
+        justify-content center
+        align-items center
+        flex-direction row
+        background-color #fff
+        position absolute
+        top -2px
+        right 30px
+        z-index 10000
+        border-radius 5
+        border 1px solid #d8d8d8
+
+  &__icon
+    width 10%
+    height 100%
+    position relative
+    display flex
+    justify-content center
+    align-items center
+    color #2196f3
+    cursor pointer
+    &_error
+      color tomato !important
+    svg
+      &:hover
+        color #000
+
+
+
+
+      
+
+
+
+

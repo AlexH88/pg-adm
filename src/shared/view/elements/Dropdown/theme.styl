@@ -1,0 +1,78 @@
+@import "~shared/view/styles/colors.styl";
+
+.dropdown__wrapper
+  padding 14px 0 0 0
+  //margin-bottom 4px
+  position relative
+
+  .dropdown
+    outline none
+    border 1px solid #a6a6a6
+    height 30px
+    border-radius 3px
+    padding 0
+    box-sizing content-box
+
+  .dropdown .label
+    transition-property top, left, font-size, color
+
+  .dropdown:not(.up) > .values
+    top 32px
+    max-height 200px !important
+    overflow-y scroll
+
+  .inputFilled
+    display flex
+    align-items center
+    font-size 16px
+    color rgb(33, 33, 33)
+    padding 0 0 0 8px
+    height 30px
+
+  .inputLabel
+    transition-property top, left, font-size, color
+
+  .value > input
+    font-size 16px
+    margin 0
+    
+  input ~ .inputLabel:not(.inputFixed)
+    font-size 14px
+    line-height 16px
+    color rgb(33, 33, 33)
+    left 8px
+    top 7px
+
+  input:focus ~ .inputLabel:not(.inputFixed),
+  input.inputFilled ~ .inputLabel:not(.inputFixed)
+    font-size 12px
+    line-height 12px
+    color $blue400
+    left 0
+    top -14px
+    color $blue400
+
+  .inputBar:before, .inputBar:after
+    background-color $blue400
+
+  .inputError
+    color #de3226
+    position absolute
+    bottom -14px
+    font-size 12px
+    line-height 12px
+    margin 0
+
+  .values li
+    font-size 16px
+    color rgb(33, 33, 33)
+    padding 0 0 0 8px
+    line-height 30px
+
+  .value
+    padding 0
+    opacity 1 !important
+
+.dropdown__wrapper ul::-webkit-scrollbar
+  width 5px !important
+

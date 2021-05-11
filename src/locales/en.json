@@ -1,0 +1,1017 @@
+{
+  "ws": {
+    "admin": {
+      "encryption": "Encrypted",
+      "decryption": "Decrypted",
+      "file": "file",
+      "of": "of"
+    }
+  },
+  "features": {
+    "errorMessage": "You do not have permission to access / on this server",
+    "cancel": "Cancel",
+    "save": "Save",
+    "groups": "Groups",
+    "syncUser": "ou are about to sync users:",
+    "delUser": "You are about to delete from the user database:",
+    "synchronization": "Synchronization",
+    "synchronized": "Synchronized",
+    "nosynchronized": "Unsynchronized",
+    "close": "Close",
+    "errorSync": "An error occurred while syncing",
+    "errCancel": "Error canceling synchronization. The printer is not responding.",
+    "errSync": "Sync error. The printer is not responding.",
+    "edit": "Multiple editing"
+  },
+  "printers": {
+    "printers": "Printers",
+    "network": "Network",
+    "allPrintes": "All printers",
+    "attentionRemove": "Attention! The printer will be removed.",
+    "settings": "Printer Settings",
+    "name": "Name"
+  },
+  "EditPrinterForm": {
+    "price": "Цена",
+    "formatPrice": "Format Price",
+    "PriceA3": "Price for a3",
+    "PriceA4": "Price for a4",
+    "PriceA5": "Price for a5",
+    "colorCoeff": "Color Printing Ratio",
+    "duplexPrice": "Price including double-sided printing",
+    "colorPrice": "Color adjusted price",
+    "duplexCoeff": "Duplex ratio",
+    "rfid": "Map printing",
+    "uid": "Reader ID *",
+    "cancel": "Cancel",
+    "save": "Save",
+    "name": "Name",
+    "is_followme": "Two-factor authentication",
+    "rfidr_uid": "Reader id*"
+  },
+  "printersLocal": {
+    "labelHeader": "Printers > Local > All Printers",
+    "printers": "Printers",
+    "local": "Network",
+    "allPrintes": "All printers",
+    "settings": "Printer Settings"
+  },
+  "users": {
+    "usersHeader": "Users> All Users",
+    "settings": "User options",
+    "user": "User",
+    "willDeleted": "will be deleted from the database"
+  },
+  "AddUserForm": {
+    "login": "Login*",
+    "name": "Name*",
+    "email": "Email*",
+    "card": "Card number",
+    "balance": "Balance",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "Groups": {
+    "groupsHeader": "Users > Groups",
+    "settings": "Group Options",
+    "group": "Group",
+    "willDeleted": "will be deleted from the database",
+    "Yes": "Yes",
+    "Not": "Not",
+    "update": "Update",
+    "accrual": "Accrual"
+  },
+  "AddGroupForm": {
+    "name": "Name*",
+    "initialCredit": "An initial fee",
+    "initialRestricted": "Negative balance",
+    "amount": "Charge amount*",
+    "period": "Period*",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "update": "Update",
+    "accrual": "Accrual",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "FilterSelect": {
+    "addFilter": "Add filter"
+  },
+  "DisplaySelect": {
+    "content": "Content"
+  },
+  "RemoveModal": {
+    "attention": "Attention",
+    "cancel": "Cancel",
+    "delete": "Delete"
+  },
+  "PrintServers": {
+    "printServerHeader": "Agents> Network> Print Servers",
+    "deleteAgent": "Attention! The print server will be deleted.",
+    "syncPrintServer": "Printer Synchronization on a Print Server"
+  },
+  "PC": {
+    "pcHeader": "Agents> Local> PC",
+    "switchLog": "Log request",
+    "cancel": "Cancel",
+    "isPrimary": "Request a log",
+    "removeAgent": "Agent will be deleted!"
+  },
+  "GroupsPC": {
+    "groupsPCHeader": "Agents> Local> PC Groups",
+    "addGropu": "Adding a Group",
+    "groupProperties": "Group Properties",
+    "deletedGropu": "The group will be deleted from the database!"
+  },
+  "EditHostGroup": {
+    "name": "Name*",
+    "version": "Version",
+    "restart": "Agent restart",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "AddHostGroup": {
+    "name": "Name*",
+    "version": "Version",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "PrinterGroups": {
+    "printerGroupHeader": "Printers> Groups",
+    "addGroup": "Adding a Group",
+    "willDeleted": "The group will be deleted from the database!"
+  },
+  "AddPrinterGroup": {
+    "name": "Name*",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "Rfidreaders": {
+    "header": "Readers"
+  },
+  "TimePolicies": {
+    "header": "Policies> Temporary Policies",
+    "temporaryPolicy": "Temporary policy settings",
+    "activatePolicy": "Activate policy?",
+    "Yes": "Yes",
+    "Not": "Not"
+  },
+  "RestrictionPolicies": {
+    "header": "Policies> Restrictive Policies",
+    "policySettings": "Restrictive Policy Settings",
+    "deleted": "The policy will be deleted from the database!",
+    "activatePolicy": "Activate policy?",
+    "Yes": "Yes",
+    "Not": "Not"
+  },
+  "AgentPolicies": {
+    "header": "Policies> Agent Policies",
+    "policySettings": "Agent Policy Settings",
+    "activatePolicy": "Activate policy?",
+    "activates": "Activates",
+    "deactivates": "Deactivates"
+  },
+  "BackupPolicies": {
+    "header": "Policies> Shadow Copy Policies",
+    "policySettings": "Shadow Copy Policy Settings",
+    "deleted": "The policy will be deleted from the database!",
+    "activate": "Activate policy?"
+  },
+  "Rules": {
+    "FilterResource": "Policies> Rules>",
+    "settings": "Rule Parameters",
+    "newRule": "New rule",
+    "deleted": "The rule will be deleted from the database!",
+    "policy": "Politics",
+    "change": "will be changed!"
+  },
+  "MarkPolicies": {
+    "header": "Policies> Tag Policies",
+    "tags": "Text tags",
+    "decrypt": "Decrypt",
+    "policySettings": "Policy settings",
+    "decryption": "Decryption",
+    "deleted": "The policy will be deleted from the database!",
+    "activate": "Activate"
+  },
+  "MultiSelectField": {
+    "allGroupsSelected": "All groups are selected by default.",
+    "addGroup": "Add group",
+    "groups": "Groups"
+  },
+  "SelectTimeField": {
+    "printingHours": "Printing hours",
+    "printingDays": "Printing days"
+  },
+  "AddAgentPolicyForm": {
+    "header": "Agent group",
+    "name": "Name",
+    "days": "Days",
+    "hours": "Hours",
+    "action": "Action",
+    "cancel": "Cancel",
+    "save": "Save",
+    "activates": "Activates",
+    "deactivates": "Deactivates"
+  },
+  "AddCopyForm": {
+    "name": "Name*",
+    "printerGroups": "Printer group",
+    "userGroups": "User group",
+    "cancel": "Cancel",
+    "add": "Add"
+  },
+  "AddEconomyPolicyForm": {
+    "printergroups": "Printer group",
+    "usergroups": "User group",
+    "name": "Name*",
+    "seal": "B/w printing",
+    "duplex": "Two-side print",
+    "economical": "Saving mode",
+    "cancel": "Cancel",
+    "add": "Add"
+  },
+  "AddPolicyForm": {
+    "name": "Name*",
+    "description": "Description",
+    "printerGroups": "printers",
+    "userGroups": "of users",
+    "days": "Days",
+    "hours": "Hours",
+    "documentFormatSet": "Print format",
+    "color": "Color print",
+    "duplex": "Two-side print",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "AddRuleForm": {
+    "printergroups": "Printer group",
+    "usergroups": "User group",
+    "name": "Name*",
+    "days": "Days",
+    "hours": "Hours",
+    "action": "Action",
+    "cancel": "Cancel",
+    "add": "Add",
+    "alert": "Alert"
+  },
+  "AddTextMarkForm": {
+    "name": "Name*",
+    "tag": "Tag text",
+    "encrypted": "Encrypt",
+    "user": "user",
+    "printer": "printer",
+    "printTime": "print time",
+    "printDate": "print date",
+    "hostName": "host name",
+    "save": "save"
+  },
+  "DecryptForm": {
+    "Cipher": "Cipher*",
+    "Decrypt": "Decrypt"
+  },
+  "EditRuleForm": {
+    "printergroups": "Printer group",
+    "usergroups": "User group",
+    "name": "Name*",
+    "days": "Days",
+    "hours": "Hours",
+    "action": "Action",
+    "cancel": "cancel",
+    "save": "save",
+    "alert": "Alert"
+  },
+  "Jobs": {
+    "Journal": "Journal",
+    "Yes": "Yes",
+    "Not": "Not",
+    "cb": "B/w",
+    "Color": "Color"
+  },
+  "mocks": {
+      "filterResourceConfigMocks": {
+      "name": "Name",
+      "initialCredit": "An initial fee",
+      "initialRestricted": "Negative balance",
+      "amount": "Accrual amount",
+      "period": "Period",
+      "type": "Type of accrual"
+    },
+    "aggregateStats": {
+      "totalItems": "Total records",
+      "totalPages": "Total pages",
+      "totalJobs": "Total Tasks"
+    },
+    "configsDescription": {
+      "login": "Login",
+      "name": "Name",
+      "email": "Email",
+      "balance": "Balance",
+      "pageCount": "Printed Pages",
+      "jobCount": "Printed Jobs",
+      "filters": {
+        "login": "By login",
+        "name": "By name",
+        "usergroups": "By group",
+        "catalogs": "According to the catalog"
+      },
+      "aggregates": {
+        "totalItems": "Total records",
+        "totalPages": "Total pages"
+      },
+      "usergroups": {
+        "params": {
+          "name": "Name",
+          "initialCredit": "An initial fee",
+          "initialRestricted": "Negative balance",
+          "amount": "Accrual amount",
+          "period": "Period",
+          "type": "Type of accrual"
+        },
+        "filters": {
+          "name": "By name",
+          "catalog": "According to the catalog"
+        },
+        "aggregates": {
+          "totalItems": "Total records",
+          "totalPages": "Total pages"
+        }
+      },
+      "catalogs": {
+        "params": {
+          "name": "Name",
+          "type": "Type"
+        },
+        "aggregates": {
+          "totalItems": "Total records"
+        }
+      },
+      "catalogsUpd": {
+        "params": {
+          "catalog": "catalog",
+          "user": "User",
+          "host": "Host",
+          "port": "Port",
+          "baseDn": "Base DN",
+          "loginAttr": "LDAP login attribute",
+          "emailAttr": "LDAP mail attribute",
+          "prefix": "Prefix",
+          "status": "Status"
+        },
+        "aggregates": {
+          "totalItems": "Total records"
+        }
+      },
+      "timePolicy": {
+        "params": {
+          "actively": "Actively",
+          "name": "Name",
+          "description": "Description",
+          "owner": "Owner",
+          "userGroups": "Users",
+          "printerGroups": "Printers",
+          "hours": "Hours",
+          "days": "Days"
+        },
+        "filters": {
+          "name": "By name"
+        },
+        "aggregates": {
+          "totalItems": "Total records"
+        }
+      },
+      "policies": {
+        "params": {
+          "state": "Actively",
+          "name": "Name",
+          "description": "Description",
+          "owner": "Owner"
+        },
+        "filters": {
+          "name": "Name"
+        },
+        "aggregates": {
+          "totalItems": "Total records"
+        }
+      },
+      "agentPolicies": {
+        "params": {
+          "state": "Actively",
+          "name": "Name",
+          "days": "Days",
+          "hours": "Hours",
+          "hostgroups": "Agent Groups",
+          "actions": "Action"
+        },
+        "filters": {
+          "name": "By name"
+        },
+        "aggregates": {
+          "totalItems": "Total records"
+        }
+      },
+      "backupPolicy": {
+        "params": {
+          "state": "Actively",
+          "name": "Name",
+          "owner": "Owner",
+          "userGroups": "Groups of users",
+          "printerGroups": "Printer Groups"
+        },
+        "filters": {
+          "name": "By name"
+        },
+        "aggregates": {
+          "totalItems": "Total records"
+        }
+      },
+      "restrictionPolicy": {
+        "params": {
+          "state": "Actively",
+          "name": "Name",
+          "owner": "Owner",
+          "userGroups": "Groups of users",
+          "printerGroups": "Printer Groups",
+          "color": "Color print",
+          "duplex": "Two-side print",
+          "documentFormatSet": "Print format"
+        },
+        "filters": {
+          "name": "By name"
+        },
+        "aggregates": {
+          "totalItems": "Total records"
+        }
+      },
+      "watermarkPolicy": {
+        "params": {
+          "state": "Actively",
+          "name": "Name",
+          "owner": "Owner",
+          "userGroups": "Groups of users",
+          "printerGroups": "Printer Groups"
+        },
+        "filters": {
+          "name": "By name"
+        },
+        "aggregates": {
+          "totalItems": "Total records"
+        }
+      },
+      "rules": {
+        "params": {
+          "usergroups": "Users",
+          "printergroups": "Printers",
+          "hours": "Hours",
+          "days": "Days",
+          "action": "Action",
+          "alert": "Alert"
+        }
+      },
+      "labelPolicies": {
+        "params": {
+          "actively": "Actively",
+          "name": "Name",
+          "owner": "Owner",
+          "usergroups": "Groups of users",
+          "printergroups": "Printer Groups"
+        },
+        "filters": {
+          "name": "Name"
+        },
+        "aggregates": {
+          "totalItems": "Total Records",
+          "totalPages": "Total Pages"
+        }
+      },
+      "textLabels": {
+        "params": {
+          "name": "Name",
+          "tag": "Tag text",
+          "encrypted": "Encrypted"
+        },
+        "aggregates": {
+          "totalItems": "Total Records",
+          "totalPages": "Total Pages"
+        }
+      },
+      "jobs": {
+        "params": {
+          "login": "Login",
+          "catalogName": "Catalog",
+          "printer": "Printer",
+          "host": "Host",
+          "namefile": "File name",
+          "price": "Price",
+          "spoolSize": "Size",
+          "pages": "Pages",
+          "copies": "Copies",
+          "inputTime": "Dispatch time",
+          "outputTime": "Print time",
+          "typeprint": "Print time",
+          "format": "Format",
+          "duplex": "Two-side print",
+          "status": "Status"
+        },
+        "filters": {
+          "login": "By login",
+          "printer": "By printer name",
+          "filename": "By file name",
+          "usergroups": "By user groups",
+          "printergroups": "By Printer Group",
+          "catalogs": "By user directories",
+          "status": "By print status",
+          "danyBalance": "Failure (no funds)",
+          "danyTimePolicy": "Failure (time rule)",
+          "danyRestrictionPolicy": "Failure (access rule)",
+          "printed": "Printed",
+          "fileUpload": "Being processed",
+          "init": "Awaiting",
+          "error": "Error",
+          "queue": "Queue",
+          "colorprint": "Color print",
+          "Yes": "Yes",
+          "Not": "Not",
+          "duplex": "Two-side print",
+          "format": "Print format"
+        },
+        "aggregates": {
+          "totalItems": "Total records",
+          "totalPages": "Total pages"
+        }
+      },
+      "printersNetwork":{
+        "params": {
+          "name": "Name",
+          "driver": "Driver",
+          "mac": "MAC address",
+          "price": "Price, ₽",
+          "a3Price": "Price for А3, ₽",
+          "a4Price": "Price for А4, ₽",
+          "a5Price": "Price for А5, ₽",
+          "colorCoeff": "Ratio for Color Printing",
+          "duplexCoeff": "Duplex ratio",
+          "pageCount": "Pages",
+          "jobCount": "Of tasks"
+        },
+        "filters": {
+          "name": "By name",
+          "driver": "By driver",
+          "printergroups": "By groups",
+          "host": "By host"
+        },
+        "aggregates":{
+          "totalItems": "Total records",
+          "totalPages": "Total pages"
+        }
+      },
+      "printersLocal": {
+        "params": {
+          "name": "Name",
+          "driver": "Driver",
+          "mac": "MAC address",
+          "price": "Price, ₽",
+          "a3Price": "Price for А3, ₽",
+          "a4Price": "Price for А4, ₽",
+          "a5Price": "Price for А5, ₽",
+          "colorCoeff": "Ratio for Color Printing",
+          "duplexCoeff": "Duplex ratio",
+          "pageCount": "Pages",
+          "jobCount": "Of tasks"
+        },
+        "filters": {
+          "name": "By name",
+          "driver": "By connecting",
+          "printergroups": "By groups",
+          "mac": "By MAC address"
+        },
+        "aggregates":{
+          "totalItems": "Total records",
+          "totalPages": "Total pages"
+        }
+      },
+      "hostsNetwork": {
+        "params": {
+          "name": "Host name"
+        },
+        "filters": {
+          "name": "By host name",
+          "ip": "By IP"
+        },
+        "aggregates":{
+          "totalItems": "Total records",
+          "totalPages": "Total pages"
+        }
+      },
+      "hostsLocal": {
+        "params": {
+          "name": "Host name",
+          "mac": "MAC address",
+          "groups": "Groups",
+          "version": "Version"
+        },
+        "filters": {
+          "name": "By host name",
+          "ip": "By IP",
+          "hostgroups": "By groups",
+          "version": "По Versionм",
+          "active": "By activity",
+          "act": "Active",
+          "noact": "Not active"
+        },
+        "aggregates": {
+          "totalItems": "Total records",
+          "totalPages": "Total pages"         
+        }
+      },
+      "userReports": {
+        "params": {
+          "user": "User",
+          "price": "total cost",
+          "jobs": "Number of tasks",
+          "pages": "Number of pages"
+        },
+        "filters": {
+          "printer": "By printer name",
+          "usergroup": "By user group",
+          "printergroup": "By group of printers",
+          "outputtime": "By print time"
+        }
+      },
+      "userTimereports": {
+        "filters": {
+          "interval": "Time interval",
+          "step": "Step",
+          "type": "Type",
+          "price": "total cost",
+          "jobs": "Number of tasks",
+          "pages": "Number of pagess",
+          "select": "Select",
+          "name1": "Petya",
+          "name2": "Vasya",
+          "outputTime": "By print time"
+        }
+      },
+      "userGroupsReports": {
+        "params": {
+          "groupName": "User group",
+          "price": "total cost",
+          "jobs": "Number of tasks",
+          "pages": "Number of pagess"
+        },
+        "filters": {
+          "printer": "By printer name",
+          "printergroup": "By group of printers",
+          "outputTime": "By print time"
+        },
+        "aggregates": {
+          "totalItems": "Total records",
+          "totalPages": "Total pages"         
+        }
+      },
+      "printerReports": {
+        "params": {
+          "printer": "Printers",
+          "price": "total cost",
+          "jobs": "Number of tasks",
+          "pages": "Number of pagess"
+        },
+        "filters": {
+          "user": "By Users",
+          "usergroup": "By user group",
+          "printergroup": "By group of printers",
+          "outputTime": "By print time"
+        },
+        "aggregates": {
+          "totalItems": "Total records",
+          "totalPages": "Total pages"         
+        }
+      },
+      "printerGroupsReports": {
+        "params": {
+          "groupName": "Groups printers",
+          "price": "total cost",
+          "jobs": "Number of tasks",
+          "pages": "Number of pagess"
+        },
+        "filters": {
+          "user": "By Users",
+          "usergroup": "By user group",
+          "outputTime": "By print time"
+        },
+        "aggregates": {
+          "totalItems": "Total records",
+          "totalPages": "Total pages"         
+        }
+      },
+      "regularReports": {
+        "params": {
+          "type": "Report type",
+          "period": "Release period",
+          "emails": "Email"
+        },
+        "aggregates": {
+          "totalItems": "Total records",
+          "totalPages": "Total pages"         
+        }
+      },
+      "snmp": {
+        "params": {
+          "hostname": "Host",
+          "modelName": "Model name"
+        },
+        "aggregates": {
+          "totalItems": "Total records",
+          "totalPages": "Total pages"
+        }
+      },
+      "oid": {
+        "params": {
+          "firmware": "Firmware",
+          "oid": "OID",
+          "vendor": "Manufacturer",
+          "deviceStatus": "Device status",
+          "printingStatus": "Print status",
+          "printed": "Printed",
+          "blackTonerMax": "Black toner max.",
+          "blackTonerCurrent": "Black toner",
+          "blackTonerPercent": "Black toner %",
+          "cyanTonerMax": "Cyan toner max.",
+          "cyanTonerCurrent": "Cyan toner",
+          "cyanTonerPercent": "Cyan toner %",
+          "yellowTonerMax": "Yellow toner max.",
+          "yellowTonerCurrent": "Yellow toner",
+          "yellowTonerPercent": "Yellow toner %",
+          "magentaTonerMax": "Violet Toner Max.",
+          "magentaTonerCurrent": "Violet Toner",
+          "magentaTonerPercent": "Violet Toner %"
+
+        },
+        "aggregates": {
+          "totalItems": "Total records",
+          "totalPages": "Total pages"
+        }
+      },
+      "printergroups": {
+        "params": {
+          "name": "Name"
+        },
+        "filters": {
+          "name": "By name"
+        },
+        "aggregates": {
+          "totalItems": "Total records",
+          "totalPages": "Total pages"
+        }
+      },
+      "hostgroups": {
+        "params": {
+          "name": "Name",
+          "version": "Version"
+        },
+        "aggregates": {
+          "totalItems": "Total records",
+          "totalPages": "Total pages"
+        }
+      },
+      "reader": {
+        "params": {
+          "uid": "Identifier"
+        },
+        "aggregates": {
+          "totalItems": "Total records",
+          "totalPages": "Total pages"
+        }
+      },
+      "roles": {
+        "params": {
+          "name": "Name",
+          "description": "Description"
+        }
+      },
+      "actionEvents": {
+        "params": {
+          "op": "Operator name",
+          "description": "Action description",
+          "eventTime": "Time of action"
+        },
+        "filters": {
+          "name": "By operator name",
+          "eventTime": "By action time"
+        },
+        "aggregates": {
+          "totalItems": "Total records",
+          "totalPages": "Total pages"
+        }
+      },
+      "printerApiEvents": {
+        "params": {
+          "hostname": "Host",
+          "description": "Error description",
+          "eventTime": "Error time"
+        },
+        "filters": {
+          "hostname": "By host"
+        },
+        "aggregates": {
+          "totalItems": "Total records",
+          "totalPages": "Total pages"
+        }
+      },
+      "alerts": {
+        "params": {
+          "name": "Alert Name",
+          "description": "Description"
+        },
+        "filters": {
+          "name": "By name"
+        },
+        "aggregates": {
+          "totalItems": "Total records",
+          "totalPages": "Total pages"
+        }
+      },
+      "blockedprinters": {
+        "params": {
+          "driver": "Driver name"
+        }
+      }
+    }
+  },
+  "SRole": {
+    "header": "Settings> Administration> Roles",
+    "setingsRole": "Role options",
+    "deleted": "The role will be removed from the database!"
+  },
+  "EditRoles": {
+    "name": "Title",
+    "description": "Description",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "SOperators": {
+    "header": "Settings> Administration> Operators",
+    "settingOperator": "Operator Options",
+    "deleted": "The operator will be deleted from the database!",
+    "login": "Login",
+    "email": "Email",
+    "role": "Role"
+  },
+  "EditOperators": {
+    "login": "Login",
+    "email": "Email",
+    "role": "Role",
+    "password": "Password",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "Ignored": {
+    "header": "Settings> Ignored Printers",
+    "addIg": "Adding an Ignored Printer",
+    "deleted": "The printer will be deleted!"
+  },
+  "AddBlockedPrinter": {
+    "driver": "Driver name",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "Features": {
+    "settings": "Settings",
+    "snmp": "Configure SNMP and RFID",
+    "functional": "Functionality",
+    "activate": "Activate SNMP",
+    "activateRFID": "Activate RFID",
+    "settingdLocalAgent": "Local Agent Settings",
+    "constPrint": "Page Print",
+    "blockPrint": "Lock printing on local printers",
+    "tiemout": "Timeout before blocking printing to local printers, hours",
+    "apply": "Apply"
+  },
+  "About": {
+    "header": "During the update, the program will be unavailable. Proceed ?",
+    "Yes": "Yes",
+    "Not": "Not",
+    "license": "License Installation",
+    "versions": "Available versions for updating:",
+    "notVersions": "no versions available",
+    "update": "Update",
+    "currentLicense": "Current license:",
+    "numberPrinters":"Number of Printers:",
+    "numberUsers": "Number of users:",
+    "numberCompounds": "Number of connections:",
+    "valid":"Valid until:",
+    "notLicense": "No license",
+    "installLicense": "Install license"
+  },
+  "Status":{
+    "mostPrintedGroups": "Most Printed Groups",
+    "mostUsedPrinters": "Most Used Printers",
+    "printedPages": "Printed Pages",
+    "growthOfprintDynamics": "The growth of print dynamics by groups",
+    "selectChart": "Select Charts",
+    "byDay": "by day",
+    "mostTypingUsers": "The most typing users in the group",
+    "byweek": "by week",
+    "bymonth": "by month"
+  },
+  "Agents": {
+    "agents": "Print agents",
+    "hostsNetwork": "Print servers",
+    "hostsLocal": "Local pc",
+    "hostgroupsLocal": "Local PC Groups"
+  },
+  "UsersLk": {
+    "users": "Users",
+    "usersL": "Users",
+    "usergroupsL": "Groups",
+    "catalogsL": "Catalogs",
+    "catalogsUpd": "Directories-upd"
+  },
+  "PrinterLk": {
+    "printers": "Printers",
+    "printersNetwork": "Network",
+    "printersLocal": "Local",
+    "printergroups": "Groups",
+    "readers": "Readers"
+  },
+  "PolicyLk":{
+    "policy": "Politicians",
+    "timePolicies": "Temporary Policies",
+    "backupPolicies": "Shadow Copy Policies",
+    "restrictionPolicies": "Restrictive policies",
+    "watermarkPolicies": "Watermark Policies",
+    "labelHeader": "Policies> Watermark Policies",
+    "watermarkPolicySettings": "Watermark Policy Settings",
+    "watermarkSettings": "Watermark Settings",
+    "policyDeleted": "The policy will be deleted from the database!",
+    "activatePolicy": "Activate policy?",
+    "investigation": "Investigation",
+    "investigationHeader": "Policies > Investigation"
+  },
+  "JournalLk": {
+    "journal": "Journal"
+  },
+  "SettingsLk": {
+    "settings": "Settings",
+    "administration": "Administration",
+    "roles": "Roles",
+    "operators": "Operators",
+    "features": "Functionality",
+    "blockedPrinters": "Ignored Printers",
+    "smtp": "Mail Settings"
+  },
+  "StatusL": {
+    "title": "Status"
+  },
+  "LoginForm": {
+    "login": "Login",
+    "password": "Password",
+    "errorMessage": "Wrong login or password",
+    "comeIn": "To come in"
+  },
+  "Reports": {
+    "title": "Reports",
+    "administrator": "Administrator",
+    "day": "day",
+    "week": "week",
+    "year": "year",
+    "price": "By price",
+    "jobs": "By number of tasks",
+    "pages": "By number of pages",
+    "bargraph": "bar graph",
+    "piechart": "Pie chart",
+    "labelHeader": "Reports> Administration"
+  },
+  "Search": {
+    "search": "Search"
+  },
+  "Report": {
+    "title": "Report",
+    "dateFrom": "Date From",
+    "dateTo": "Date to",
+    "byPrinters": "By printers",
+    "byUsers": "By Users",
+    "byUserGroups": "By user groups",
+    "byPrinterGroup": "By Printer Group",
+    "parametrsReport": "Report Parameters"
+  },
+  "Validate": {
+    "requiredField": "This field is required",
+    "requiredFieldMail": "Please enter a valid email",
+    "requiredFieldDays": "Date difference should be no more than 30 days"
+  },
+  "GroupForm": {
+    "update": "Update",
+    "accrual": "Accrual",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "monthly": "Monthly",
+    "name": "Name*",
+    "initialFee": "An initial fee*",
+    "negativeBalance": "Negative balance*",
+    "accrualAmount": "Accrual amount*"
+  }
+}

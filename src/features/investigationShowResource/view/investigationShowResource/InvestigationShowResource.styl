@@ -1,0 +1,149 @@
+@import "~shared/view/styles/colors.styl";
+
+.ReactCrop
+  width 650px !important
+  margin 0 auto
+
+  &__image
+    width 200% !important
+
+.show-investigation-resource
+  padding-left 20px
+  margin-top 40px
+  position relative
+  width: 100%
+
+  &__pagination
+    width auto
+    height 32px
+    margin-bottom 30px
+    border solid 1px #d8d8d8
+
+  &__filters
+    padding 15px 0 0 0
+
+  &__controls
+    padding-bottom 15px
+    display flex
+    
+  &__title
+    font-size 1.5rem
+    display inline-block
+    margin-right 10px
+
+  &__add-btn
+    height 32px
+    width 32px
+    box-sizing: border-box
+
+  &__title
+    font-size 1.5rem
+    display inline-block
+    margin-right 10px
+    padding 10px 0
+
+  &__multi-edit-btn
+    top 0
+  &__select-cols-btn
+    //position absolute
+    display inline
+    padding-left 10px
+    //float: right
+    margin auto
+    z-index 101
+
+  &__container
+    display flex
+    height auto
+    margin-right 20px
+
+  &__investigation
+    flex-direction column
+    align-items center
+    justify-content space-around
+    background-color #fff
+    border solid 1px #d8d8d8
+    border-right 0
+    flex-grow 1
+
+  &__investigation-img
+    position relative
+    display flex 
+    width 100%
+    height 100%
+    background-color #fff
+
+
+  &__bodyPicture
+    background-color #fff
+
+  &__bodyPicture-wrapper
+    background: rgba(0, 0, 0, 0.8);
+    display flex
+    justify-content center
+    align-items center
+    width 100vw
+    height 100vh
+    position fixed
+    left 0
+    top 0
+
+  &__investigation-bodyPictureOpen
+    position absolute
+    top 18px
+    right 18px
+  
+  &__bodyPicture-close
+    position absolute   
+    top 20px
+    right 20px
+
+
+  &__investigation-btn
+    position absolute
+    top -40px
+    font-size 16px
+    line-height 16px
+    text-align center
+    width 32px
+    min-width 32px
+    height 32px
+    padding 0
+    box-sizing content-box
+    box-shadow none
+    border: 0
+    border-radius 3px
+    display flex
+    align-items center
+    transition 0.2s opacity
+    opacity 0.7
+    background #2196f3
+    display flex
+    justify-content center
+
+    input
+      display none
+    img
+      width 20px
+      cursor pointer
+
+  &__decode-block
+    display flex
+    width 280px
+    flex-direction column
+    border solid 1px #d8d8d8
+    span
+      cursor pointer
+      &:hover
+        color #34494a
+    .text-input
+      width 90%
+      margin 0 auto
+
+.ReactCrop__crop-selection {
+  cursor: grabbing;
+}
+
+.ReactCrop {
+  cursor: copy;
+}

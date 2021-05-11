@@ -1,0 +1,72 @@
+@import "~shared/view/styles/colors.styl";
+
+.monoselect__wrapper
+  padding 14px 0 0 0
+  //margin-bottom 4px
+  position relative
+  width 100%
+
+  .autocomplete
+    outline none
+    border 1px solid #a6a6a6
+    height 30px
+    border-radius 3px
+    padding 0
+    box-sizing content-box
+
+  .input
+    padding 0
+  
+  .inputInputElement
+    display flex
+    align-items center
+    font-size 16px
+    color rgb(33, 33, 33)
+    padding 0 0 0 8px
+    height 30px
+
+  .inputLabel
+    transition-property top, left, font-size, color
+
+  .inputInputElement ~ .inputLabel:not(.fixed)
+    font-size 14px
+    line-height 16px
+    color rgb(33, 33, 33)
+    left 8px
+    top 8px
+
+  .inputInputElement.inputFilled ~ .inputLabel:not(.fixed),
+  .inputInputElement:focus:not([disabled]):not([readonly]) ~ .inputLabel:not(.fixed)
+    font-size 12px
+    line-height 12px
+    color $blue400
+    left 0
+    top -14px
+
+  .suggestions
+    top 48px
+    padding 0
+
+  .suggestion
+    font-size 16px
+    line-height 30px
+    color rgb(33, 33, 33)
+    padding 0 0 0 8px
+    list-style none
+  
+  .inputBar:before, .inputBar:after
+    background-color $blue400
+
+  .inputError
+    border 1px solid blue
+    color #de3226
+    position absolute
+    bottom -14px
+    font-size 12px
+    line-height 12px
+    margin 0
+
+  .value
+    border 1px solid red
+    padding 0
+    opacity 1 !important

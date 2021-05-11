@@ -1,0 +1,45 @@
+.time-reports
+  &__label
+    font-size 1.2rem
+    float left
+    margin-right 10px
+    padding 10px 0
+    font-weight bold
+    padding-left 40px
+    padding-top 20px
+  &__outer
+    margin-left 20px
+    .select-filter
+      min-width 20%
+      float left
+      width 22%
+    .calendar
+      float left
+      position relative
+      .text-input
+        padding: 1.15rem
+      .calendar__button-rem
+        right 10%
+  &__addfilters-outer
+    .selected-filters
+      padding-top 10px
+      padding-left 20px
+    .filter-select
+      padding-top 23px
+
+      
+  &__link
+    text-decoration none
+    display block
+    text-align center
+    color #42A5F5
+    font-size 1rem
+    &:hover
+      color #111
+
+
+.time-reports__outer:after,
+.time-reports__addfilters-outer:after
+  content ""
+  display table
+  clear both

@@ -1,0 +1,39 @@
+@import "~shared/view/styles/colors.styl"
+
+.catalogs
+  &__error
+    color red
+  
+  &__error-status
+    &_type
+      &_success
+        width 10px
+        height 10px
+        border-radius 100%
+        background-color $green220
+        //background-image url('shared/view/styles/images/checked.svg');
+        //width 16px
+        //height 16px
+        //display inline-block
+      &_fail
+        width 10px
+        height 10px
+        border-radius 100%
+        background-color $red100
+        //background-image url('shared/view/styles/images/red-cross.svg');
+        //width 16px
+        //height 16px
+        //display inline-block
+
+  &__circle
+    width 10px
+    height 10px
+    display inline-block
+    vertical-align super
+    border-radius 50%
+    margin-right 20px
+    &_green
+      background-color $green220
+
+    &_red
+      background-color $red100
